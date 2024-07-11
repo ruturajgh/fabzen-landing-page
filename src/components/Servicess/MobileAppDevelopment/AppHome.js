@@ -2,7 +2,7 @@ import React from "react";
 
 function AppHome() {
   return (
-    <div className="  ">
+    <div className=" bg-mobileApps ">
       <>
         <div className="max-w-[75rem] mx-auto px-8 sm:px-6 lg:px-6 ">
           <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
@@ -25,7 +25,7 @@ function AppHome() {
               </p>
             </div>
 
-            <div className="relative ms-4 " style={{ zIndex: "-100" }}>
+            <div className="relative ms-4 " >
               <div className="flex justify-center align-middle">
                 <div>
                   <img

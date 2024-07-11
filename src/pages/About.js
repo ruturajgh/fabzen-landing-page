@@ -7,17 +7,22 @@ import OurOffices from "../components/About/OurOffice";
 function About() {
   return (
     <div>
-       {/* className="bg-about" */}
+      {/* className="bg-about" */}
       {/* <div className="py-44">
         <AboutHome />
         <WhoWeAre />
         <StoryOf />
         <OurOffices />
       </div> */}
-           <AboutHome />
-           <WhoWeAre />
-           <StoryOf />
-           <OurOffices />
+
+      <div className="">
+        <div className="">
+          <AboutHome />
+          <WhoWeAre />
+          <StoryOf />
+          <OurOffices />
+        </div>
+      </div>
     </div>
   );
 }

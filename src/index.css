@@ -90,11 +90,6 @@ body {
   border-radius: " 30px";
 }
 
-/* .bg-about{
-  background-image: url(../public/assets/images/bg-about.png);
-  background-size: cover;
-  margin-top: -130px;
-} */
 
 .text-color{
   color: #CE1057;
@@ -215,8 +210,9 @@ mix-blend-mode: lighten;
   height: 37px  !important;
   left: 50%  !important;
   margin-left: -39px  !important;
-  border-radius: 12px  !important;
-  border: none;
+  border-radius: 30px  !important;
+  border: none !important;
+  background: #CE1057;
 }
 
 .vertical-timeline-element-icon {
@@ -225,7 +221,7 @@ mix-blend-mode: lighten;
   left: 0 !important;
   width: 40px !important;
   height: 40px !important;
-  border-radius: 50% !important;
+  border-radius: 70% !important;
   border: none !important;
   /* -webkit-box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05); */
   /* box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05); */
@@ -260,3 +256,79 @@ mix-blend-mode: lighten;
  position: relative;
  padding-top: ;
 } */
+
+
+
+/* backgroud for all banner images */
+
+.bg-about{
+  background-image: url(../public/assets/images/bg-about.png);
+  background-size: cover;
+  height: 57%;
+  margin-top: -190px;
+  padding-top: 260px;
+  margin-bottom: 100px;
+}
+
+
+.bg-about::after {
+  content: '';
+  position: absolute;
+  bottom: -10;
+  left: 0;
+  width: 100%;
+  height:3%; 
+  background: linear-gradient(to right, #08061C, #2D1327);
+  z-index: 1;
+}
+
+.bg-mobileApps{
+  background-image: url(../public/assets/images/ui-ux-bg.png);
+  background-size: cover;
+  height: 57%;
+  margin-top: -190px;
+  padding-top: 260px;
+  margin-bottom: 100px;
+  
+}
+
+
+
+
+.bg-mobilegame{
+  background-image: url(../public/assets/images/gamedev-bg.png);
+  background-size: cover;
+  height: 57%;
+  margin-top: -190px;
+  padding-top: 260px;
+  margin-bottom: 100px;
+  mix-blend-mode: lighten;
+}
+
+
+
+
+.bg-mobileuxui{
+  background-image: url(../public/assets/images/ui-ux-bg.png);
+  background-size: cover;
+  height: 57%;
+  margin-top: -190px;
+  padding-top: 260px;
+  margin-bottom: 100px;
+  mix-blend-mode:difference;
+  
+}
+
+
+
+
+.vertical-timeline-element-content {
+  border: none !important;
+  box-shadow: none !important; 
+}
+.vertical-timeline-element-content, 
+.vertical-timeline-element-content * {
+  border: none !important;
+  box-shadow: none !important; 
+}
+

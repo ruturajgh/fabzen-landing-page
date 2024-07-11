@@ -37,8 +37,9 @@ function OurOffices() {
           officia praesentium odit, suscipit ullam unde!d
         </p>
       </div>
-      <div className="flex justify-center gap-6 -mt-16 mb-16">
-        <div>
+     <div>
+     <div className="flex justify-center gap-6 -mt-16 mb-16">
+        <div className="">
           <img
             src={`/assets/images/logo-1.png`}
             height={250}
@@ -67,6 +68,7 @@ function OurOffices() {
           />
         </div>
       </div>
+     </div>
       <section className="bg-upfootertest mt-16">
         <div className="flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 m-2">

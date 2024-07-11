@@ -8,7 +8,7 @@ function Header() {
   };
 
   return (
-    <nav className="ba">
+    <nav className="">
       <div className="containe-lgr mx-20 px-6 py-3 mb-3">
         <div className="flex justify-between items-center mt-3">
           <a className="text-xl font-bold text-gray-800 lg:text-2xl" href="/">
@@ -21,14 +21,14 @@ function Header() {
           </a>
           <div className="flex space-x-14">
             <a
-              className="hover:text-pink-700 text-white stolzl-400 text-2xl"
+              className="hover:text-pink-700 text-white stolzl-300 text-2xl"
               href="/"
               style={{ textDecoration: "none" }}
             >
               Home
             </a>
             <a
-              className="hover:text-pink-700 text-white stolzl-400 text-2xl"
+              className="hover:text-pink-700 text-white stolzl-300 text-2xl"
               href="/about"
               style={{ textDecoration: "none" }}
             >
@@ -36,11 +36,11 @@ function Header() {
             </a>
             <div className="relative">
               <a
-                className="hover:text-pink-700 text-white stolzl-400 cursor-pointer text-2xl"
+                className="hover:text-pink-700 text-white stolzl-300 cursor-pointer text-2xl"
                 onClick={toggleDropdown}
                 style={{ textDecoration: "none" }}
               >
-                Services <i class="fa fa-caret-down" ></i>
+                Services <i class="" ></i>
               </a>
               {isDropdownOpen && (
                 <div
@@ -88,21 +88,21 @@ function Header() {
               )}
             </div>
             <a
-              className="hover:text-pink-700 text-white stolzl-400 text-2xl"
+              className="hover:text-pink-700 text-white stolzl-300 text-2xl"
               href="/uxservice"
               style={{ textDecoration: "none" }}
             >
             Our Product
             </a>
             <a
-              className="hover:text-pink-700 text-white stolzl-400 text-2xl"
+              className="hover:text-pink-700 text-white stolzl-300 text-2xl"
               href="/contact"
               style={{ textDecoration: "none" }}
             >
               Careers
             </a>
             <a
-              className="hover:text-pink-700 text-white stolzl-400 text-2xl"
+              className="hover:text-pink-700 text-white stolzl-300 text-2xl"
               href="/contact"
               style={{ textDecoration: "none" }}
             >

@@ -24,14 +24,20 @@ const StoryOf = () => {
       <VerticalTimeline lineColor="#CE1057">
         <VerticalTimelineElement
           className=""
-          iconStyle={{ background: "#CE1057", color: "#CE1057" }}
-          icon={<FaGraduationCap />}
+          iconStyle={{
+            background: "#CE1057",
+            color: "#FFFFFF",
+            border: "none",
+            borderRadius: "30%",
+            boxShadow: 'none'
+          }}
+          // icon={<FaGraduationCap />}
           style={{ color: "GrayText" }}
         >
           <h1 className="stolzl-300 text-white text-2xl">
             Foundation of Fabzen Technologies
           </h1>
-          <p className="secondary-text stolzl-300 ">
+          <p className="secondary-text stolzl-300">
             Fabzen Technologies Pvt Ltd. was first established in 2017 in Pune
             and has achieved the ISO Certificate for being a safe and secure
             company that works hard to provide the best security and is
@@ -42,25 +48,14 @@ const StoryOf = () => {
 
         <VerticalTimelineElement
           className=""
-          iconStyle={{ background: "#CE1057", color: "#CE1057" }}
-          icon={<FaGraduationCap />}
-          style={{ color: "GrayText" }}
-        >
-         <h1 className="stolzl-300 text-white text-2xl">
-            Foundation of Fabzen Technologies
-          </h1>
-          <p className="secondary-text stolzl-300">
-            Fabzen Technologies Pvt Ltd. was first established in 2017 in Pune
-            and has achieved the ISO Certificate for being a safe and secure
-            company that works hard to provide the best security and is
-            constantly working to create the most captivating and entertaining
-            games for everyone.
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className=""
-          iconStyle={{ background: "#CE1057", color: "#CE1057" }}
-          icon={<FaGraduationCap />}
+          iconStyle={{
+            background: "#CE1057",
+            color: "#FFFFFF",
+            border: "none",
+            borderRadius: "30%",
+            boxShadow: 'none'
+          }}
+          // icon={<FaGraduationCap />}
           style={{ color: "GrayText" }}
         >
           <h1 className="stolzl-300 text-white text-2xl">
@@ -76,8 +71,14 @@ const StoryOf = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className=""
-          iconStyle={{ background: "#CE1057", color: "#CE1057" }}
-          icon={<FaGraduationCap />}
+          iconStyle={{
+            background: "#CE1057",
+            color: "#FFFFFF",
+            border: "none",
+            borderRadius: "30%",
+            boxShadow: 'none'
+          }}
+          // icon={<FaGraduationCap />}
           style={{ color: "GrayText" }}
         >
           <h1 className="stolzl-300 text-white text-2xl">
@@ -93,14 +94,43 @@ const StoryOf = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className=""
-          iconStyle={{ background: "#CE1057", color: "#CE1057" }}
-          icon={<FaGraduationCap />}
+          iconStyle={{
+            background: "#CE1057",
+            color: "#FFFFFF",
+            border: "none",
+            borderRadius: "30%",
+            boxShadow: 'none'
+          }}
+          // icon={<FaGraduationCap />}
           style={{ color: "GrayText" }}
         >
           <h1 className="stolzl-300 text-white text-2xl">
             Foundation of Fabzen Technologies
           </h1>
-          <p className="secondary-text ">
+          <p className="secondary-text stolzl-300">
+            Fabzen Technologies Pvt Ltd. was first established in 2017 in Pune
+            and has achieved the ISO Certificate for being a safe and secure
+            company that works hard to provide the best security and is
+            constantly working to create the most captivating and entertaining
+            games for everyone.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className=""
+          iconStyle={{
+            background: "#CE1057",
+            color: "#FFFFFF",
+            border: "none",
+            borderRadius: "30%",
+            boxShadow: 'none'
+          }}
+          // icon={<FaGraduationCap />}
+          style={{ color: "GrayText" }}
+        >
+          <h1 className="stolzl-300 text-white text-2xl">
+            Foundation of Fabzen Technologies
+          </h1>
+          <p className="secondary-text stolzl-300">
             Fabzen Technologies Pvt Ltd. was first established in 2017 in Pune
             and has achieved the ISO Certificate for being a safe and secure
             company that works hard to provide the best security and is
