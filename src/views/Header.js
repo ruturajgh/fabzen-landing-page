@@ -21,24 +21,24 @@ function Header() {
           </a>
           <div className="flex space-x-14">
             <a
-              className="hover:text-pink-700 text-white stolzl-300 text-2xl"
+              className="hover:text-pink-700 text-white stolzl-300 "
               href="/"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none", fontSize:"18px" }}
             >
               Home
             </a>
             <a
-              className="hover:text-pink-700 text-white stolzl-300 text-2xl"
+              className="hover:text-pink-700 text-white stolzl-300 "
               href="/about"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"  ,fontSize:"18px" }}
             >
               About
             </a>
             <div className="relative">
               <a
-                className="hover:text-pink-700 text-white stolzl-300 cursor-pointer text-2xl"
+                className="hover:text-pink-700 text-white stolzl-300 cursor-pointer "
                 onClick={toggleDropdown}
-                style={{ textDecoration: "none" }}
+                style={{ textDecoration: "none"  ,fontSize:"18px" }}
               >
                 Services <i class="" ></i>
               </a>
@@ -88,23 +88,23 @@ function Header() {
               )}
             </div>
             <a
-              className="hover:text-pink-700 text-white stolzl-300 text-2xl"
+              className="hover:text-pink-700 text-white stolzl-300 "
               href="/uxservice"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"   ,fontSize:"18px"}}
             >
             Our Product
             </a>
             <a
-              className="hover:text-pink-700 text-white stolzl-300 text-2xl"
+              className="hover:text-pink-700 text-white stolzl-300 "
               href="/contact"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"  ,fontSize:"18px" }}
             >
               Careers
             </a>
             <a
-              className="hover:text-pink-700 text-white stolzl-300 text-2xl"
+              className="hover:text-pink-700 text-white stolzl-300 "
               href="/contact"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none"  ,fontSize:"18px" }}
             >
               Contact
             </a>

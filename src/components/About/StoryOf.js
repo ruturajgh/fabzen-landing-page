@@ -31,7 +31,7 @@ const StoryOf = () => {
             borderRadius: "30%",
             boxShadow: 'none'
           }}
-          // icon={<FaGraduationCap />}
+          icon={<div className="text-center" style={{ color: "white  ",padding:'6px' }}>2017</div>}
           style={{ color: "GrayText" }}
         >
           <h1 className="stolzl-300 text-white text-2xl">
@@ -55,7 +55,7 @@ const StoryOf = () => {
             borderRadius: "30%",
             boxShadow: 'none'
           }}
-          // icon={<FaGraduationCap />}
+          icon={<div className="text-center" style={{ color: "white  ",padding:'6px' }}>2019</div>}
           style={{ color: "GrayText" }}
         >
           <h1 className="stolzl-300 text-white text-2xl">
@@ -78,7 +78,7 @@ const StoryOf = () => {
             borderRadius: "30%",
             boxShadow: 'none'
           }}
-          // icon={<FaGraduationCap />}
+          icon={<div className="text-center" style={{ color: "white  ",padding:'6px' }}>2021</div>}
           style={{ color: "GrayText" }}
         >
           <h1 className="stolzl-300 text-white text-2xl">
@@ -101,7 +101,7 @@ const StoryOf = () => {
             borderRadius: "30%",
             boxShadow: 'none'
           }}
-          // icon={<FaGraduationCap />}
+          icon={<div className="text-center" style={{ color: "white  ",padding:'6px' }}>2022</div>}
           style={{ color: "GrayText" }}
         >
           <h1 className="stolzl-300 text-white text-2xl">
@@ -124,7 +124,7 @@ const StoryOf = () => {
             borderRadius: "30%",
             boxShadow: 'none'
           }}
-          // icon={<FaGraduationCap />}
+          icon={<div className="text-center" style={{ color: "white  ",padding:'6px' }}>2023</div>}
           style={{ color: "GrayText" }}
         >
           <h1 className="stolzl-300 text-white text-2xl">

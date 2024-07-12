@@ -262,33 +262,42 @@ mix-blend-mode: lighten;
 /* backgroud for all banner images */
 
 .bg-about{
-  background-image: url(../public/assets/images/bg-about.png);
-  background-size: cover;
-  height: 57%;
+  background-image: url(../public/assets/images/gamedev-bg.png);
+
+  height: 77%;
   margin-top: -190px;
   padding-top: 260px;
+  mix-blend-mode:fill;
   margin-bottom: 100px;
+  background-position: center;
+  z-index: -100;
+  position: relative;
+  background-repeat: no-repeat;
+  
+}
+
+.vertical-timeline.vertical-timeline--two-columns:before {
+  left: 50% !important;
+  margin-left: -1px !important;
+  height: 84% !important;
 }
 
 
-.bg-about::after {
-  content: '';
-  position: absolute;
-  bottom: -10;
-  left: 0;
-  width: 100%;
-  height:3%; 
-  background: linear-gradient(to right, #08061C, #2D1327);
-  z-index: 1;
-}
+
+
+
 
 .bg-mobileApps{
-  background-image: url(../public/assets/images/ui-ux-bg.png);
+  background-image: url(../public/assets/images/ui-ux-bg-light.png);
   background-size: cover;
   height: 57%;
   margin-top: -190px;
   padding-top: 260px;
   margin-bottom: 100px;
+  mix-blend-mode:lighten;
+  background-position: top;
+  z-index: -100;
+  position: relative;
   
 }
 
@@ -302,20 +311,26 @@ mix-blend-mode: lighten;
   margin-top: -190px;
   padding-top: 260px;
   margin-bottom: 100px;
-  mix-blend-mode: lighten;
+  background-position: top;
+  z-index: -100;
+  position: relative;
+  mix-blend-mode:lighten;
 }
 
 
 
 
 .bg-mobileuxui{
-  background-image: url(../public/assets/images/ui-ux-bg.png);
+  background-image: url(../public/assets/images/ui-ux-bg-light.png);
   background-size: cover;
   height: 57%;
   margin-top: -190px;
   padding-top: 260px;
   margin-bottom: 100px;
-  mix-blend-mode:difference;
+  mix-blend-mode:lighten;
+  background-position: top;
+  z-index: -100;
+  position: relative;
   
 }
 
