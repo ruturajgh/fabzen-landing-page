@@ -63,7 +63,20 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: #05051B;
+}
+.overlay00{
+  
+    position: absolute; /* Position absolutely within the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background: url('../public/assets/images/overlay.png'); /* Path to your overlay image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    opacity: 1; /* Adjust the opacity as needed */
+
 }
 
 .button-gradient {
@@ -80,7 +93,7 @@ body {
   );
 }
 
-body {
+/* body {
   background-image: url(../public/assets/images/complete-bg.png);
 
   height: "680px";
@@ -88,7 +101,7 @@ body {
   padding-top: "10px";
   background-repeat: no-repeat;
   border-radius: " 30px";
-}
+} */
 
 
 .text-color{
@@ -262,24 +275,27 @@ mix-blend-mode: lighten;
 /* backgroud for all banner images */
 
 .bg-about{
-  background-image: url(../public/assets/images/gamedev-bg.png);
+  /* background-image: url(../public/assets/images/appp[[.png); */
 
   height: 77%;
-  margin-top: -190px;
+  margin-top: -230px;
   padding-top: 260px;
   mix-blend-mode:fill;
-  margin-bottom: 100px;
-  background-position: center;
+  background-position: top;
   z-index: -100;
   position: relative;
   background-repeat: no-repeat;
+  background-size: cover;
+  
   
 }
+
+
 
 .vertical-timeline.vertical-timeline--two-columns:before {
   left: 50% !important;
   margin-left: -1px !important;
-  height: 84% !important;
+  height: 81% !important;
 }
 
 
@@ -347,3 +363,16 @@ mix-blend-mode: lighten;
   box-shadow: none !important; 
 }
 
+.vertical-timeline::before {
+  content: '';
+  position: absolute !important;
+  top: 38px !important;
+  left: 18px !important;
+  height: 100% !important;
+  width: 4px !important;
+  background: var(--line-color) !important;
+}
+
+.active-link {
+  color: #CE1057!important;
+}

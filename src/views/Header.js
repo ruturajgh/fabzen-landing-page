@@ -1,10 +1,16 @@
 import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 
 function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const location = useLocation();
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const isActive = (path) => {
+    return location.pathname === path ? "active-link" : "";
   };
 
   return (
@@ -21,30 +27,30 @@ function Header() {
           </a>
           <div className="flex space-x-14">
             <a
-              className="hover:text-pink-700 text-white stolzl-300 "
+              className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/")}`}
               href="/"
-              style={{ textDecoration: "none", fontSize:"18px" }}
+              style={{ textDecoration: "none", fontSize: "18px" }}
             >
               Home
             </a>
             <a
-              className="hover:text-pink-700 text-white stolzl-300 "
+              className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/about")}`}
               href="/about"
-              style={{ textDecoration: "none"  ,fontSize:"18px" }}
+              style={{ textDecoration: "none", fontSize: "18px" }}
             >
               About
             </a>
             <div className="relative">
               <a
-                className="hover:text-pink-700 text-white stolzl-300 cursor-pointer "
+                className="hover:text-pink-700 text-white stolzl-300 cursor-pointer"
                 onClick={toggleDropdown}
-                style={{ textDecoration: "none"  ,fontSize:"18px" }}
+                style={{ textDecoration: "none", fontSize: "18px" }}
               >
-                Services <i class="" ></i>
+                Services <i className=""></i>
               </a>
               {isDropdownOpen && (
                 <div
-                  className="absolute bg-white shadow-lg mt-2 py-2  rounded-md ring-1 ring-black ring-opacity-5"
+                  className="absolute bg-white shadow-lg rounded-md ring-1 ring-black ring-opacity-5"
                   style={{ width: "250px" }}
                 >
                   <a
@@ -69,7 +75,7 @@ function Header() {
                     href="/UxServices"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white"
                   >
-                    UI/UX Desgin
+                    UI/UX Design
                   </a>
                   <a
                     href="/service1"
@@ -81,30 +87,29 @@ function Header() {
                     href="/service1"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white"
                   >
-                    Game 2D/3D Desgin
+                    Game 2D/3D Design
                   </a>
-                 
                 </div>
               )}
             </div>
             <a
-              className="hover:text-pink-700 text-white stolzl-300 "
+              className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/uxservice")}`}
               href="/uxservice"
-              style={{ textDecoration: "none"   ,fontSize:"18px"}}
+              style={{ textDecoration: "none", fontSize: "18px" }}
             >
-            Our Product
+              Our Product
             </a>
             <a
-              className="hover:text-pink-700 text-white stolzl-300 "
+              className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/contact")}`}
               href="/contact"
-              style={{ textDecoration: "none"  ,fontSize:"18px" }}
+              style={{ textDecoration: "none", fontSize: "18px" }}
             >
               Careers
             </a>
             <a
-              className="hover:text-pink-700 text-white stolzl-300 "
+              className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/contact")}`}
               href="/contact"
-              style={{ textDecoration: "none"  ,fontSize:"18px" }}
+              style={{ textDecoration: "none", fontSize: "18px" }}
             >
               Contact
             </a>

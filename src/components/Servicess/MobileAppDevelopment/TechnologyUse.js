@@ -54,6 +54,8 @@ const TechnologyUse = () => {
                   >
                     <img
                       src={`/assets/images/react.png`}
+                         height={190}
+                      width={190}
                     />
                   </div>
                 </div>
@@ -65,6 +67,8 @@ const TechnologyUse = () => {
                   >
                     <img
                       src={`/assets/images/react.png`}
+                         height={190}
+                      width={190}
                     />
                   </div>
                 </div>
@@ -76,6 +80,8 @@ const TechnologyUse = () => {
                   >
                     <img
                       src={`/assets/images/react.png`}
+                         height={190}
+                      width={190}
                     />
                   </div>
                 </div>
@@ -86,6 +92,8 @@ const TechnologyUse = () => {
                   >
                     <img
                       src={`/assets/images/react.png`}
+                         height={190}
+                      width={190}
                     />
                   </div>
                 </div>
@@ -101,6 +109,8 @@ const TechnologyUse = () => {
                   >
                     <img
                       src={`/assets/images/react.png`}
+                      height={190}
+                      width={190}
                     />
                   </div>
                 </div>
@@ -112,6 +122,8 @@ const TechnologyUse = () => {
                   >
                     <img
                       src={`/assets/images/react.png`}
+                         height={190}
+                      width={190}
                     />
                   </div>
                 </div>
@@ -122,7 +134,9 @@ const TechnologyUse = () => {
                     style={{ background: "#2F1428" }}
                   >
                     <img
-                      src={`/assets/images/react.png`} alt="technology"
+                      src={`/assets/images/react.png`}
+                         height={190}
+                      width={190} alt="technology"
                     />
                   </div>
                 </div>
@@ -133,6 +147,8 @@ const TechnologyUse = () => {
                   >
                     <img
                       src={`/assets/images/react.png`}
+                         height={190}
+                      width={190}
                     />
                   </div>
                 </div>

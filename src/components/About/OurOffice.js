@@ -3,7 +3,7 @@ import React from "react";
 function OurOffices() {
   return (
     <div>
-      <div className=" mx-auto py-28 ">
+      <div className=" mx-auto py-16 ">
         <h1 className="text-center stolzl-400 text-white text-4xl mb-5">
           Our Offices
         </h1>

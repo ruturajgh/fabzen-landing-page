@@ -3,7 +3,7 @@ import React from "react";
 function GameHome() {
   return (
     <div className="bg-mobilegame">
-      <div className="max-w-[65rem] mx-auto px-8 sm:px-6 lg:px-6 ">
+      <div className="max-w-[65rem] mx-auto px-8 sm:px-6 lg:px-6 -mt-10 ">
         <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
           <div className="max-w-full ">
             <h2
@@ -30,8 +30,8 @@ function GameHome() {
                   className=" img-home-app rounded-md"
                   src={`/assets/images/gamehome.png`}
                   alt="Image Description"
-                  height={300}
-                  width={300}
+                  height={320}
+                  width={320}
                 />
               </div>
             </div>

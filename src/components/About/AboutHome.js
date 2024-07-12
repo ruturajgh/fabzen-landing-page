@@ -3,7 +3,7 @@ import React from "react";
 function AboutHome() {
   return (
     <div className="bg-about ">
-      <div>
+      <div className="overlay000">
         <div className="max-w-[75rem] mx-auto px-8 sm:px-6 lg:px-6  ">
           <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center mb-42">
             <div className="max-w-full  ">
@@ -23,6 +23,7 @@ function AboutHome() {
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text.
               </p>
+              
             </div>
 
             <div className=" ms-4 ">
@@ -32,8 +33,8 @@ function AboutHome() {
                     className=" img-home-app rounded-md"
                     src={`/assets/images/abouthome.png`}
                     alt="Image Description"
-                    height={300}
-                    width={300}
+                    height={390}
+                    width={390}
                   />
                 </div>
               </div>

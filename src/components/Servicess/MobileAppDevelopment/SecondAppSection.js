@@ -36,17 +36,17 @@ function SecondAppSection() {
         {/* card 2 */}
         <div className="p-4 max-w-sm">
           <div className="flex rounded-lg h-full p-8 flex-col">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-4">
             <div className="mb-3">
                 <img
-                  src={`/assets/images/icon-tool.png`}
+                  src={`/assets/images/icon-people.png`}
                   height={80}
                   width={80}
                 />
               </div>
             </div>
             <h2 className="text-center  text-white mb-3 stolzl-400">
-              Best Tools
+              Experienced Team
             </h2>
             <div className="flex flex-col justify-between flex-grow">
               <p
@@ -62,17 +62,17 @@ function SecondAppSection() {
         {/* card 3 */}
         <div className="p-4 max-w-sm">
           <div className="flex rounded-lg h-full p-8 flex-col">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center ">
             <div className="mb-3">
                 <img
-                  src={`/assets/images/icon-tool.png`}
+                  src={`/assets/images/icon-multiple.png`}
                   height={80}
                   width={80}
                 />
               </div>
             </div>
             <h2 className="text-center  text-white mb-3 stolzl-400">
-              Best Tools
+             Multiple Platforms
             </h2>
             <div className="flex flex-col justify-between flex-grow">
               <p

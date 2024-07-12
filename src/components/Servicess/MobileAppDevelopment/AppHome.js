@@ -32,8 +32,8 @@ function AppHome() {
                     className=" img-home-app rounded-md"
                     src={`/assets/images/apphome.png`}
                     alt="Image Description"
-                    height={300}
-                    width={300}
+                    height={390}
+                    width={390}
                   />
                 </div>
               </div>

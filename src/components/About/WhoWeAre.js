@@ -3,7 +3,7 @@ import React from "react";
 function WhoWeAre() {
   return (
    <div className="bg-upper">
-     <div className="flex justify-center align-middle mb-28 py-16">
+     <div className="flex justify-center align-middle  py-16">
       <div className=" " >
         <div className=" mx-auto py-12 rounded-xl p-48" style={{background:"#2F1428"}}>
           <h1 className="text-center stolzl-400 text-white text-4xl mb-5">
