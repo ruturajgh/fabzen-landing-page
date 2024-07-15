@@ -251,7 +251,7 @@ mix-blend-mode: lighten;
 }
 
 .font-size-main{
-  font-size: 57px;
+  font-size: 54px;
 }
 
 
@@ -375,4 +375,10 @@ mix-blend-mode: lighten;
 
 .active-link {
   color: #CE1057!important;
+}
+
+.bg-secondsection{
+  background-image: url(/public/assets/images/main-bg-banner.png);
+  background-size: cover;
+  height: 800px;
 }

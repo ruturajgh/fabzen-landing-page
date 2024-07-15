@@ -55,37 +55,37 @@ function Header() {
                 >
                   <a
                     href="/AppDevelopment"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white"
+                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive("/AppDevelopment")}`}
                   >
                     Mobile Apps Development
                   </a>
                   <a
                     href="/GameDevelopment"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white"
+                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive("/GameDevelopment")}`}
                   >
                     Mobile Games Development
                   </a>
                   <a
                     href="/CloudServices"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white"
+                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive("/CloudServices")}`}
                   >
-                    Cloud & Devops Services
+                    Cloud & DevOps Services
                   </a>
                   <a
                     href="/UxServices"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white"
+                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive("/UxServices")}`}
                   >
                     UI/UX Design
                   </a>
                   <a
-                    href="/service1"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white"
+                    href="/GameBrandingMarket"
+                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive("/GameBrandingMarket")}`}
                   >
                     Game Branding & Marketing
                   </a>
                   <a
-                    href="/service1"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white"
+                    href="/GameDesign"
+                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-gray-700 ${isActive("/GameDesign")}`}
                   >
                     Game 2D/3D Design
                   </a>
@@ -100,8 +100,8 @@ function Header() {
               Our Product
             </a>
             <a
-              className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/contact")}`}
-              href="/contact"
+              className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/Careers")}`}
+              href="/Careers"
               style={{ textDecoration: "none", fontSize: "18px" }}
             >
               Careers

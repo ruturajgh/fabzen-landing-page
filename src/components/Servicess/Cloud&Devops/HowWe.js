@@ -1,14 +1,13 @@
-import React from "react";
-import WeHiring from "../../Careers/WeHiring";
+import React from 'react'
 
-
-const WhyChoose=()=> {
+function HowWe() {
   return (
     <div>
-      <div className="py-24">
+
+<div className="py-24">
         <div className="container-lg mx-auto ">
           <h1 className="text-center stolzl-400 text-white text-5xl mb-5">
-            Why Choose Fabzen for UI/UX Design
+          How we do it?
           </h1>
           <p className="text-center secondary-text leading-8 stolzl-200 mb-10">
             Our cross-functional team of UI designers are capable of curating
@@ -86,7 +85,7 @@ const WhyChoose=()=> {
                 class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  "
                 style={{ background: "#2F1428" }}
               >
-                <img src={`/assets/images/icon-testing.png`} height={190} width={190} />
+                <img src={`/assets/images/icon-tool.png`} height={190} width={190} />
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">
@@ -104,9 +103,10 @@ const WhyChoose=()=> {
           </div>
         </div>
       </div>
-    
+
+
     </div>
-  );
+  )
 }
 
-export default WhyChoose;
+export default HowWe
