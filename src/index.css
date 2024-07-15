@@ -271,13 +271,13 @@ body {
 /* backgroud for all banner images */
 
 .bg-about {
-  /* background-image: url(../public/assets/images/appp[[.png); */
+  /* background-image: url(../public/assets/images/about-bg00.png); */
 
   height: 77%;
   margin-top: -230px;
   padding-top: 260px;
   mix-blend-mode: fill;
-  background-position: top;
+  background-position: 200px -390px;
   z-index: -100;
   position: relative;
   background-repeat: no-repeat;
