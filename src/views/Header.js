@@ -29,14 +29,14 @@ function Header() {
             <a
               className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/")}`}
               href="/"
-              style={{ textDecoration: "none", fontSize: "18px" }}
+              style={{ textDecoration: "none", fontSize: "16px" }}
             >
               Home
             </a>
             <a
               className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/about")}`}
               href="/about"
-              style={{ textDecoration: "none", fontSize: "18px" }}
+              style={{ textDecoration: "none", fontSize: "16px" }}
             >
               About
             </a>
@@ -44,7 +44,7 @@ function Header() {
               <a
                 className="hover:text-pink-700 text-white stolzl-300 cursor-pointer"
                 onClick={toggleDropdown}
-                style={{ textDecoration: "none", fontSize: "18px" }}
+                style={{ textDecoration: "none", fontSize: "16px" }}
               >
                 Services <i className=""></i>
               </a>
@@ -76,16 +76,16 @@ function Header() {
                     className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive("/UxServices")}`}
                   >
                     UI/UX Design
-                  </a>
+                  </a> 
                   <a
                     href="/GameBrandingMarket"
-                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive("/GameBrandingMarket")}`}
+                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white z-10 ${isActive("/GameBrandingMarket")}`}
                   >
                     Game Branding & Marketing
                   </a>
                   <a
-                    href="/GameDesign"
-                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-gray-700 ${isActive("/GameDesign")}`}
+                    href="/GameDesgin"
+                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-gray-700 ${isActive("/GameDesgin")}`}
                   >
                     Game 2D/3D Design
                   </a>
@@ -95,21 +95,21 @@ function Header() {
             <a
               className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/uxservice")}`}
               href="/uxservice"
-              style={{ textDecoration: "none", fontSize: "18px" }}
+              style={{ textDecoration: "none", fontSize: "16px" }}
             >
               Our Product
             </a>
             <a
               className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/Careers")}`}
               href="/Careers"
-              style={{ textDecoration: "none", fontSize: "18px" }}
+              style={{ textDecoration: "none", fontSize: "16px" }}
             >
               Careers
             </a>
             <a
               className={`hover:text-pink-700 text-white stolzl-300 ${isActive("/contact")}`}
               href="/contact"
-              style={{ textDecoration: "none", fontSize: "18px" }}
+              style={{ textDecoration: "none", fontSize: "16px" }}
             >
               Contact
             </a>

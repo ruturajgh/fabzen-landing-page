@@ -2,7 +2,7 @@ import React from "react";
 
 function AppHome() {
   return (
-    <div className=" bg-mobileApps ">
+    <div className=" appoverlaybg ">
       <>
         <div className="max-w-[75rem] mx-auto px-8 sm:px-6 lg:px-6 ">
           <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">

@@ -31,7 +31,7 @@ function AboutHome() {
                 <div>
                   <img
                     className=" img-home-app rounded-md"
-                    src={`/assets/images/abouthome.png`}
+                    src={`/assets/images/about-sticker.png`}
                     alt="Image Description"
                     height={390}
                     width={390}

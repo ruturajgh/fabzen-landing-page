@@ -23,7 +23,7 @@ function GameHome() {
             </p>
           </div>
 
-          <div className="relative ms-4 " >
+          <div className="relative ms-4 -mt-10" >
             <div className="flex justify-center align-middle">
               <div>
                 <img

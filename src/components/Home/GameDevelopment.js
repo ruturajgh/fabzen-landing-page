@@ -9,15 +9,15 @@ const GameDevelopmentProcess = () => {
 
 
   useEffect(() => {
-    const glide = new Glide('.glide-custom', {
-      type: 'slider',
-      focusAt: 'center',
+    const glide = new Glide(".glide-custom", {
+      type: "slider",
+      focusAt: "center",
       perView: 1,
       autoplay: 3500,
       animationDuration: 700,
       gap: 0,
       classes: {
-        activeNav: '[&>*]:',
+        activeNav: "[&>*]:",
       },
     });
 
@@ -37,7 +37,7 @@ const GameDevelopmentProcess = () => {
             >
               <div className="flex flex-wrap">
                 <div className=" w-1/2 p-4">
-                  <div className="flex flex-col justify-between h-full">
+                <div className="flex flex-col justify-around h-full">
                     <div>
                       <h2 className="text-3xl font-normal text-white stolzl-400 mb-10" style={{ lineHeight: '1.3' }}>
                         Our
