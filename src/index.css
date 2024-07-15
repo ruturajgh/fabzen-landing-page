@@ -3,7 +3,6 @@
 @font-face {
   font-family: stolzl-100;
   src: url(../public/assets/fonts/Stolzl-100.ttf);
-  
 }
 
 @font-face {
@@ -63,20 +62,18 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #05051B;
+  background-color: #05051b;
 }
-.overlay00{
-  
-    position: absolute; /* Position absolutely within the container */
-    top: 0;
-    left: 0;
-    width: 100%;
+.overlay00 {
+  position: absolute; /* Position absolutely within the container */
+  top: 0;
+  left: 0;
+  width: 100%;
 
-    background: url('../public/assets/images/overlay.png'); /* Path to your overlay image */
-    background-size: cover; /* Ensure the image covers the entire container */
-    background-position: center; /* Center the image */
-    opacity: 1; /* Adjust the opacity as needed */
-
+  background: url("../public/assets/images/overlay.png"); /* Path to your overlay image */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  opacity: 1; /* Adjust the opacity as needed */
 }
 
 .button-gradient {
@@ -103,9 +100,8 @@ body {
   border-radius: " 30px";
 } */
 
-
-.text-color{
-  color: #CE1057;
+.text-color {
+  color: #ce1057;
 }
 .bg-img {
   background-image: url("../public/assets/images/our-game.png");
@@ -156,7 +152,7 @@ body {
   background-repeat: no-repeat;
   border-radius: 30px;
   height: 100%;
-  
+
   margin: 0;
 }
 
@@ -166,52 +162,48 @@ body {
   background-size: cover;
 }
 
-.gameimage{
+.gameimage {
   mix-blend-mode: lighten;
 }
-.imgwe{
-mix-blend-mode: lighten;
+.imgwe {
+  mix-blend-mode: lighten;
 }
 
-
-.bg-upfootertest{
+.bg-upfootertest {
   background-image: url(../public/assets/images/test-appdevllastfooter.png);
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
-
 }
-.vertical-timeline-element-content{
+.vertical-timeline-element-content {
   position: relative;
   /* margin-left: 60px; */
   /* background: #fff; */
-  border-radius: .25em;
+  border-radius: 0.25em;
   padding: 10em;
   /* -webkit-box-shadow: 0 3px 0 #ddd; */
   /* box-shadow: 0 3px 0 #ddd; */
 }
 
-
 /* app-developement- CSS */
 
-.bg-home-app{
-  background-image: url('../public/assets/images/appdevelopment-bg.png');
+.bg-home-app {
+  background-image: url("../public/assets/images/appdevelopment-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   mix-blend-mode: lighten;
 }
 
-.vertical-timeline-element-content{
-  background: none ! important ;
-  border-bottom: none !important; 
-  box-shadow: none; 
+.vertical-timeline-element-content {
+  background: none !important ;
+  border-bottom: none !important;
+  box-shadow: none;
 }
 
-.vertical-timeline-element-content-arrow{
+.vertical-timeline-element-content-arrow {
   border: none !important;
 }
 
-
-.bgabout{
+.bgabout {
   background-image: url(../public/assets/images/about.png.png);
   background-size: cover;
   background-position: center;
@@ -220,16 +212,16 @@ mix-blend-mode: lighten;
 
 .vertical-timeline--two-columns .vertical-timeline-element-icon {
   width: 83px !important;
-  height: 37px  !important;
-  left: 50%  !important;
-  margin-left: -39px  !important;
-  border-radius: 30px  !important;
+  height: 37px !important;
+  left: 50% !important;
+  margin-left: -39px !important;
+  border-radius: 30px !important;
   border: none !important;
-  background: #CE1057;
+  background: #ce1057;
 }
 
 .vertical-timeline-element-icon {
-  position: absolute  !important ;
+  position: absolute !important ;
   top: 0 !important;
   left: 0 !important;
   width: 40px !important;
@@ -240,8 +232,9 @@ mix-blend-mode: lighten;
   /* box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05); */
 }
 
-
-.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+.vertical-timeline--two-columns
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date {
   /* position: absolute; */
   /* width: 100%; */
 
@@ -250,12 +243,11 @@ mix-blend-mode: lighten;
   font-size: 1rem !important;
 }
 
-.font-size-main{
+.font-size-main {
   font-size: 54px;
 }
 
-
-.home-text{
+.home-text {
   font-size: 45px;
 }
 
@@ -270,27 +262,21 @@ mix-blend-mode: lighten;
  padding-top: ;
 } */
 
-
-
 /* backgroud for all banner images */
 
-.bg-about{
+.bg-about {
   /* background-image: url(../public/assets/images/appp[[.png); */
 
   height: 77%;
   margin-top: -230px;
   padding-top: 260px;
-  mix-blend-mode:fill;
+  mix-blend-mode: fill;
   background-position: top;
   z-index: -100;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  
-  
 }
-
-
 
 .vertical-timeline.vertical-timeline--two-columns:before {
   left: 50% !important;
@@ -298,29 +284,20 @@ mix-blend-mode: lighten;
   height: 81% !important;
 }
 
-
-
-
-
-
-.bg-mobileApps{
+.bg-mobileApps {
   background-image: url(../public/assets/images/ui-ux-bg-light.png);
   background-size: cover;
   height: 57%;
   margin-top: -190px;
   padding-top: 260px;
   margin-bottom: 100px;
-  mix-blend-mode:lighten;
+  mix-blend-mode: lighten;
   background-position: top;
   z-index: -100;
   position: relative;
-  
 }
 
-
-
-
-.bg-mobilegame{
+.bg-mobilegame {
   background-image: url(../public/assets/images/gamedev-bg.png);
   background-size: cover;
   height: 57%;
@@ -330,41 +307,34 @@ mix-blend-mode: lighten;
   background-position: top;
   z-index: -100;
   position: relative;
-  mix-blend-mode:lighten;
+  mix-blend-mode: lighten;
 }
 
-
-
-
-.bg-mobileuxui{
+.bg-mobileuxui {
   background-image: url(../public/assets/images/ui-ux-bg-light.png);
   background-size: cover;
   height: 57%;
   margin-top: -190px;
   padding-top: 260px;
   margin-bottom: 100px;
-  mix-blend-mode:lighten;
+  mix-blend-mode: lighten;
   background-position: top;
   z-index: -100;
   position: relative;
-  
 }
-
-
-
 
 .vertical-timeline-element-content {
   border: none !important;
-  box-shadow: none !important; 
+  box-shadow: none !important;
 }
-.vertical-timeline-element-content, 
+.vertical-timeline-element-content,
 .vertical-timeline-element-content * {
   border: none !important;
-  box-shadow: none !important; 
+  box-shadow: none !important;
 }
 
 .vertical-timeline::before {
-  content: '';
+  content: "";
   position: absolute !important;
   top: 38px !important;
   left: 18px !important;
@@ -374,11 +344,31 @@ mix-blend-mode: lighten;
 }
 
 .active-link {
-  color: #CE1057!important;
+  color: #ce1057 !important;
 }
 
-.bg-secondsection{
+.bg-secondsection {
   background-image: url(/public/assets/images/main-bg-banner.png);
   background-size: cover;
   height: 800px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ce1057;
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e50859;
 }
