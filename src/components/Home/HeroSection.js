@@ -43,8 +43,8 @@ function HeroSection() {
       <div className="bg-about ">
         <div className="overlay000 bg-dark p-5">
           <div className=" bg-secondsection max-w-[85rem] mx-auto px-10 sm:px-6 p-8 lg:px-6   bg-[#2F1428]  bg-second rounded-xl ">
-            <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center mb-42 ">
-              <div className="max-w-full m-7 mt-32  ">
+            <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center  h-full ">
+              <div className="max-w-full m-7 my-auto">
                 <h1
                   className=" stolzl-400 text-white"
                   style={{ lineHeight: "1.5", fontSize: "36px" }}
@@ -57,7 +57,7 @@ function HeroSection() {
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text.
                 </p>
-                <button className="button-gradient  text-white px-4 py-3 rounded-full mt-8 stolzl-300 text-1xl mb-32">
+                <button className="button-gradient  text-white px-4 py-3 rounded-full mt-8 stolzl-300 text-1xl">
                   Request a Quote
                 </button>
               </div>
