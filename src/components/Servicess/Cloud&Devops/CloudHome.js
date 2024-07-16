@@ -38,6 +38,7 @@ function CloudHome() {
                           height={390}
                           width={390}
                           style={{zIndex:"-0"}}
+                          loading="lazy"
                         />
                       </div>
                     </div>

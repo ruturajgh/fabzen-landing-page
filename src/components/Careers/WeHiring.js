@@ -78,6 +78,7 @@ const Tabs = () => {
                           src={`/assets/images/icon-remote.png`}
                           height={80}
                           width={80}
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -108,6 +109,7 @@ const Tabs = () => {
                           src={`/assets/images/icon-multiple.png`}
                           height={80}
                           width={80}
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -138,6 +140,7 @@ const Tabs = () => {
                           src={`/assets/images/icon-playearn.png`}
                           height={80}
                           width={80}
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -177,6 +180,7 @@ const Tabs = () => {
                           src={`/assets/images/icon-remote.png`}
                           height={80}
                           width={80}
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -207,6 +211,7 @@ const Tabs = () => {
                           src={`/assets/images/icon-multiple.png`}
                           height={80}
                           width={80}
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -237,6 +242,7 @@ const Tabs = () => {
                           src={`/assets/images/icon-playearn.png`}
                           height={80}
                           width={80}
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -278,6 +284,7 @@ const Tabs = () => {
                           src={`/assets/images/icon-multiple.png`}
                           height={80}
                           width={80}
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -308,6 +315,7 @@ const Tabs = () => {
                           src={`/assets/images/icon-playearn.png`}
                           height={80}
                           width={80}
+                           loading="lazy"
                         />
                       </div>
                     </div>
@@ -348,7 +356,7 @@ const Tabs = () => {
                         <img
                           src={`/assets/images/icon-multiple.png`}
                           height={80}
-                          width={80}
+                          width={80} loading="lazy"
                         />
                       </div>
                     </div>
@@ -379,6 +387,7 @@ const Tabs = () => {
                           src={`/assets/images/icon-playearn.png`}
                           height={80}
                           width={80}
+                          loading="lazy"
                         />
                       </div>
                     </div>

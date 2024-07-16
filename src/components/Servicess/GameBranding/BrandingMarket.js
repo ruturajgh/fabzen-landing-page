@@ -28,7 +28,7 @@ function BrandingMarket() {
             >
               <div className="flex justify-center mb-3">
                 <div className="mb-3">
-                  <img src={`/assets/images/icon-remote.png`}  height={80} width={80} />
+                  <img src={`/assets/images/icon-remote.png`}  height={80} width={80} loading="lazy" />
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9 ">

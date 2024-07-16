@@ -89,7 +89,7 @@ const GameDevelopmentProcess = () => {
                   </div>
                 </div>
                 <div className="w-full md:w-1/2 p-4">
-                  <img style={{ zIndex: "10", position: "relative",marginTop:"-88px" }}
+                  <img loading="lazy" style={{ zIndex: "10", position: "relative",marginTop:"-88px" }}
                     src={`/assets/images/9c21fdb5e89c26792ed5385d76064ec4.png`} 
                     height="690"
                     width="690"
@@ -160,7 +160,7 @@ const GameDevelopmentProcess = () => {
                   </div>
                 </div>
                 <div className="w-full md:w-1/2 p-4">
-                <img style={{ zIndex: "10", position: "relative",marginTop:"-88px" }}
+                <img loading="lazy" style={{ zIndex: "10", position: "relative",marginTop:"-88px" }}
                      src={`/assets/images/9c21fdb5e89c26792ed5385d76064ec4.png`} 
                     height="690"
                     width="690"

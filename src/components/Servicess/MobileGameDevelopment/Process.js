@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 
 import React from "react";
 
@@ -26,13 +26,14 @@ function Process() {
               src={`/assets/images/procee-image.png`}
               
               alt="Member of"
+              loading="lazy"
             />
           </div>
           <div className="mr-auto place-self-center lg:col-span-6">
             {/* card-1 */}
             <div className="flex justify-between  mx-auto">
               <div class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  " style={{background:"#2F1428"}}>
-                <img src={`/assets/images/icon-planning.png`} height={190} width={190}/>
+                <img src={`/assets/images/icon-planning.png`} height={190} width={190} loading="lazy"/>
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Planning</h2>
@@ -46,7 +47,7 @@ function Process() {
             {/* card-2 */}
             <div className="flex justify-between  mx-auto">
               <div class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  " style={{background:"#2F1428"}}>
-                <img src={`/assets/images/icon-preproduction.png`} height={190} width={190}/>
+                <img src={`/assets/images/icon-preproduction.png`} height={190} width={190} loading="lazy"/>
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Pre-Production</h2>
@@ -60,7 +61,7 @@ function Process() {
             {/* card-3 */}
             <div className="flex justify-between  mx-auto">
               <div class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  " style={{background:"#2F1428"}}>
-                <img src={`/assets/images/icon-production.png`} height={190} width={190}/>
+                <img src={`/assets/images/icon-production.png`} height={190} width={190} loading="lazy"/>
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Production</h2>
@@ -75,7 +76,7 @@ function Process() {
             {/* card-4 */}
             <div className="flex justify-between  mx-auto">
               <div class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  " style={{background:"#2F1428"}}>
-                <img src={`/assets/images/icon-testing.png`} height={190} width={190}/>
+                <img src={`/assets/images/icon-testing.png`} height={190} width={190} loading="lazy"/>
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Testing</h2>
@@ -91,7 +92,7 @@ function Process() {
 
             <div className="flex justify-between  mx-auto">
               <div class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  " style={{background:"#2F1428"}}>
-                <img src={`/assets/images/icon-relase.png`} height={190} width={190}/>
+                <img src={`/assets/images/icon-relase.png`} height={190} width={190} loading="lazy"/>
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Release</h2>

@@ -23,6 +23,7 @@ function Header() {
               height={300}
               width={300}
               alt="Logo"
+              loading="lazy"
             />
           </a>
           <div className="flex space-x-14">

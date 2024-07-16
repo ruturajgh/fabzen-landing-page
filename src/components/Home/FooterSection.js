@@ -7,7 +7,7 @@ const FooterSection = () => {
       <div className="flex justify-center mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 m-2">
           <div className="col-span-1 md:col-span-1">
-            <img className="mt-16" src={`/assets/images/sticker-2.png`} height="390" width="390" alt="" style={{ position: 'relative', marginTop: '120px' }} />
+            <img className="mt-16" src={`/assets/images/sticker-2.png`} height="390" width="390" alt="" style={{ position: 'relative', marginTop: '120px' }} loading="lazy" />
           </div>
           <div className="col-span-1 md:col-span-1">
             <div className="mt-24">
@@ -23,7 +23,7 @@ const FooterSection = () => {
             </div>
           </div>
           <div className="col-span-1 md:col-span-1 ms-32">
-            <img src={`/assets/images/sticker-1.png`}  height="230" width="230" className="" style={{ position: 'relative', zIndex: '10', marginTop: '-60px' }} />
+            <img src={`/assets/images/sticker-1.png`}  height="230" width="230" className="" style={{ position: 'relative', zIndex: '10', marginTop: '-60px' }} loading="lazy" />
           </div>
         </div>
       </div>

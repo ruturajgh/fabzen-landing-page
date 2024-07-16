@@ -36,6 +36,7 @@ function WhatDevops() {
                       alt="Image Description"
                       height={590}
                       width={590}
+                      loading="lazy"
                     />
                   </div>
                 </div>

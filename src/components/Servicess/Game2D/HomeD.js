@@ -39,6 +39,7 @@ function HomeD() {
                         alt="Image Description"
                         height={240}
                         width={240}
+                        loading="lazy"
                       />
                     </div>
                   </div>

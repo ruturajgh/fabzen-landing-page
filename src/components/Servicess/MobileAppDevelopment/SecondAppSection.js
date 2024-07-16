@@ -16,6 +16,7 @@ function SecondAppSection() {
                   src={`/assets/images/icon-tool.png`}
                   height={80}
                   width={80}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -42,6 +43,7 @@ function SecondAppSection() {
                   src={`/assets/images/icon-people.png`}
                   height={80}
                   width={80}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -68,6 +70,7 @@ function SecondAppSection() {
                   src={`/assets/images/icon-multiple.png`}
                   height={80}
                   width={80}
+                  loading="lazy"
                 />
               </div>
             </div>

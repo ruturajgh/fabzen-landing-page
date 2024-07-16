@@ -32,6 +32,7 @@ function GameHome() {
                   alt="Image Description"
                   height={320}
                   width={320}
+                  loading="lazy"
                 />
               </div>
             </div>

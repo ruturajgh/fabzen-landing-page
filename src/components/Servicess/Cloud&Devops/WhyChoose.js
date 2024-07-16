@@ -23,6 +23,7 @@ function WhyChoose() {
                 className=" gameimage "
                 src={`/assets/images/cloud-whychoose.png`}
                 alt="Member of"
+                loading="lazy"
               />
             </div>
             <div className="mr-auto place-self-center lg:col-span-6">
@@ -36,6 +37,7 @@ function WhyChoose() {
                     src={`/assets/images/icon-planning.png`}
                     height={190}
                     width={190}
+                    loading="lazy"
                   />
                 </div>
                 <div className="m-5">
@@ -59,6 +61,7 @@ function WhyChoose() {
                     src={`/assets/images/icon-preproduction.png`}
                     height={190}
                     width={190}
+                    loading="lazy"
                   />
                 </div>
                 <div className="m-5">
@@ -82,6 +85,7 @@ function WhyChoose() {
                     src={`/assets/images/icon-production.png`}
                     height={190}
                     width={190}
+                    loading="lazy"
                   />
                 </div>
                 <div className="m-5">
@@ -106,6 +110,7 @@ function WhyChoose() {
                     src={`/assets/images/icon-testing.png`}
                     height={190}
                     width={190}
+                    loading="lazy"
                   />
                 </div>
                 <div className="m-5">
@@ -131,6 +136,7 @@ function WhyChoose() {
                     src={`/assets/images/icon-relase.png`}
                     height={190}
                     width={190}
+                    loading="lazy"
                   />
                 </div>
                 <div className="m-5">

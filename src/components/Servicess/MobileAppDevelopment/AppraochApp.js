@@ -39,7 +39,7 @@ function ApproachApp() {
                 </p>
               </div>
               <div>
-                <img src={`/assets/images/icon-compatibility.png`} height={250} width={250} />
+                <img src={`/assets/images/icon-compatibility.png`} height={250} width={250} loading="lazy" />
               </div>
             </div>
             <div className="flex justify-between gap-8  ">
@@ -59,7 +59,7 @@ Industry Standard Process                </h4>
                 </p>
               </div>
               <div>
-              <img src={`/assets/images/icon-industry.png`} height={250} width={250} />
+              <img src={`/assets/images/icon-industry.png`} height={250} width={250} loading="lazy" />
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ Industry Standard Process                </h4>
           <div className="lg:w-1/2 text-center lg:text-left  lg:mt-0 lg:pl-6 mb-10">
             <div className="flex justify-between gap-8 mt-16 mb-24">
               <div>
-              <img src={`/assets/images/icon-domain.png`} height={250} width={250} />
+              <img src={`/assets/images/icon-domain.png`} height={250} width={250} loading="lazy" />
               </div>
               <div>
                 <h4
@@ -94,7 +94,7 @@ Industry Standard Process                </h4>
             </div>
             <div className="flex justify-between gap-8 ">
               <div>
-              <img src={`/assets/images/icon-advance.png`} height={250} width={250} />
+              <img src={`/assets/images/icon-advance.png`} height={250} width={250}  loading="lazy"/>
               </div>
               <div>
                 <h4

@@ -33,6 +33,7 @@ function HeroSection() {
                     height={380}
                     width={380}
                     // style={{zIndex: "-100" }}
+                    loading="lazy"
                   />
                 </div>
               </div>

@@ -48,6 +48,7 @@ const TestimonialsSection = () => {
                           height="160"
                           width="160"
                           alt=""
+                          loading="lazy"
                         />
                       </div>
                     </div>
@@ -76,6 +77,7 @@ const TestimonialsSection = () => {
                          height="160"
                           width="160"
                           alt=""
+                          loading="lazy"
                         />
                       </div>
                     </div>

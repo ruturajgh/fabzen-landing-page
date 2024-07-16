@@ -27,7 +27,7 @@ function DesginServices() {
             >
               <div className="flex justify-center mb-3">
                 <div className="mb-3">
-                  <img src={`/assets/images/icon-remote.png`}  height={80} width={80} />
+                  <img src={`/assets/images/icon-remote.png`} loading="lazy"  height={80} width={80} />
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9 ">
@@ -53,7 +53,7 @@ function DesginServices() {
             >
               <div className="flex justify-center mb-3">
                 <div className="mb-3">
-                  <img src={`/assets/images/icon-multiple.png`}  height={80} width={80} />
+                  <img src={`/assets/images/icon-multiple.png`} loading="lazy"  height={80} width={80} />
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
@@ -79,7 +79,7 @@ function DesginServices() {
             >
               <div className="flex justify-center mb-3">
                 <div className="mb-3">
-                  <img src={`/assets/images/icon-playearn.png`}  height={80} width={80} />
+                  <img src={`/assets/images/icon-playearn.png`} loading="lazy"  height={80} width={80} />
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
@@ -107,7 +107,7 @@ function DesginServices() {
             >
               <div className="flex justify-center mb-3">
                 <div className="mb-3 mt-2">
-                  <img src={`/assets/images/icon-fintech.png`}  height={80} width={80} />
+                  <img src={`/assets/images/icon-fintech.png`} loading="lazy"  height={80} width={80} />
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
@@ -133,7 +133,7 @@ function DesginServices() {
             >
               <div className="flex justify-center mb-3">
                 <div className="mb-3 ">
-                  <img src={`/assets/images/icon-unity.png`}  height={80} width={80} />
+                  <img src={`/assets/images/icon-unity.png`} loading="lazy"  height={80} width={80} />
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
@@ -159,7 +159,7 @@ function DesginServices() {
             >
               <div className="flex justify-center mb-3">
                 <div className="mb-3 mt-3">
-                  <img src={`/assets/images/icon-pc.png`}  height={80} width={80} />
+                  <img src={`/assets/images/icon-pc.png`}  height={80} width={80} loading="lazy" />
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">

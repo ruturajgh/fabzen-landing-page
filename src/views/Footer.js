@@ -36,6 +36,7 @@ function Footer() {
               height="240"
               width="240"
               alt="Logo"
+              loading="lazy"
             />
 
             <p
@@ -180,6 +181,7 @@ function Footer() {
               height="90"
               width="90"
               alt="Member of"
+              loading="lazy"
             />
           </div>
         </div>

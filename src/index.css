@@ -384,7 +384,7 @@ body {
   left: 0;
   width: 100%;
 
-  background: url("../public/assets/images/appdevelopment-bg.png");
+  background: url("../public/assets/images/appdevelopement-background.svg");
   background-size: cover;
   /* background-position:0px 1150px;; Center the image */
   opacity: 1;
@@ -393,13 +393,14 @@ body {
   margin-top: -150px;
 
   background-position-y: 850px;
+ 
 }
 
 .cloudoverlaybg {
   top: 0;
   left: 0;
   width: 100%;
-  background: url("../public/assets/images/appdevelopment-bg.png");
+  background: url("../public/assets/images/appdevelopement-background.svg");
   background-size: cover;
   /* background-position:0px 1150px;; Center the image */
   opacity: 1;
@@ -414,15 +415,17 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: url("../public/assets/images/game3d-bg.png");
+  background: url("../public/assets/images/game3d-images.png");
   background-size: cover;
   /* background-position:0px 1150px;; Center the image */
   opacity: 0.8;
   height: 850px;
   padding: 130px;
-  margin-top: -150px;
+  margin-top: -155px;
   margin-bottom: -130px;
+  background-position:bottom;
+  background-position-x: 290px;
 
-  background-position-y: 850px;
-  mix-blend-mode: lighten;
+  
+  mix-blend-mode:multiply;
 }

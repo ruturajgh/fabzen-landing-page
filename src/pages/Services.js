@@ -42,7 +42,7 @@ const ServicesSection = () => {
                     <div className="p-3 rounded-3xl border-0" style={{ backgroundColor: '#E84C58' }}>
                       <div className="flex mb-3 justify-center">
                         <div>
-                          <img src={`${process.env.PUBLIC_URL}/assets/images/c-2.png`}  alt="" height="320" width="320" className="-mt-32 " />
+                          <img src={`${process.env.PUBLIC_URL}/assets/images/c-2.png`}  alt="" height="320" width="320" className="-mt-32 " loading="lazy" />
                         </div>
                       </div>
                       <div className='w-full '>
@@ -64,7 +64,8 @@ const ServicesSection = () => {
                     <div className="p-3 rounded-3xl border-0" style={{ backgroundColor: '#8F63F5' }}>
                       <div className="flex mb-3 justify-center">
                         <div>
-                          <img src={`${process.env.PUBLIC_URL}/assets/images/warrior-kid.png`}  height="320" width="320" alt="" className="-mt-32" />
+                          <img src={`${process.env.PUBLIC_URL}/assets/images/warrior-kid.png`}  height="320" width="320" alt="" className="-mt-32" loading="lazy"
+                           />
                         </div>
                       </div>
                       <div className='w-full '>
@@ -82,7 +83,7 @@ const ServicesSection = () => {
                     <div className="p-3 rounded-3xl border-0" style={{ backgroundColor: '#35C6F3' }}>
                       <div className="flex mb-3 justify-center">
                         <div>
-                          <img src={`${process.env.PUBLIC_URL}/assets/images/tree.png`}  alt="" height="320" width="320" className="-mt-32" />
+                          <img src={`${process.env.PUBLIC_URL}/assets/images/tree.png`}  alt="" height="320" width="320" className="-mt-32" loading="lazy" />
                         </div>
                       </div>
                       <div className='w-full '>
@@ -106,7 +107,7 @@ const ServicesSection = () => {
                     <div className="p-3 rounded-3xl border-0" style={{ backgroundColor: '#E84C58' }}>
                       <div className="flex mb-3 justify-center">
                         <div>
-                          <img src={`${process.env.PUBLIC_URL}/assets/images/c-2.png`}  alt="" height="320" width="320" className="-mt-32 " />
+                          <img src={`${process.env.PUBLIC_URL}/assets/images/c-2.png`}  alt="" height="320" width="320" className="-mt-32 " loading="lazy" />
                         </div>
                       </div>
                       <div className='w-full '>
@@ -146,7 +147,7 @@ const ServicesSection = () => {
                     <div className="p-3 rounded-3xl border-0" style={{ backgroundColor: '#35C6F3' }}>
                       <div className="flex mb-3 justify-center">
                         <div>
-                          <img src={`${process.env.PUBLIC_URL}/assets/images/tree.png`}  alt="" height="320" width="320" className="-mt-32" />
+                          <img src={`${process.env.PUBLIC_URL}/assets/images/tree.png`}  alt="" height="320" width="320" className="-mt-32" loading="lazy" />
                         </div>
                       </div>
                       <div className='w-full '>

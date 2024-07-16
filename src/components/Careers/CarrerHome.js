@@ -38,6 +38,7 @@ function CarrerHome() {
                         alt="Image Description"
                         height={350}
                         width={350}
+                        loading="lazy"
                       />
                     </div>
                   </div>

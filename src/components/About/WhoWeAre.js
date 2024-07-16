@@ -26,7 +26,7 @@ function WhoWeAre() {
 
           <div className="flex justify-center">
             <div>
-              <img className="imgwe"src={`/assets/images/whowearesecondsection.png`}  height={600} width={600} />
+              <img className="imgwe"src={`/assets/images/whowearesecondsection.png`}  height={600} width={600} loading="lazy" />
             </div>
           </div>
         </div>

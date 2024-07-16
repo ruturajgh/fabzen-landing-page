@@ -56,6 +56,7 @@ const TechnologyUse = () => {
                       src={`/assets/images/react.png`}
                          height={190}
                       width={190}
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -69,6 +70,7 @@ const TechnologyUse = () => {
                       src={`/assets/images/react.png`}
                          height={190}
                       width={190}
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -82,6 +84,7 @@ const TechnologyUse = () => {
                       src={`/assets/images/react.png`}
                          height={190}
                       width={190}
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -94,6 +97,7 @@ const TechnologyUse = () => {
                       src={`/assets/images/react.png`}
                          height={190}
                       width={190}
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -111,6 +115,7 @@ const TechnologyUse = () => {
                       src={`/assets/images/react.png`}
                       height={190}
                       width={190}
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -124,6 +129,7 @@ const TechnologyUse = () => {
                       src={`/assets/images/react.png`}
                          height={190}
                       width={190}
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -137,6 +143,7 @@ const TechnologyUse = () => {
                       src={`/assets/images/react.png`}
                          height={190}
                       width={190} alt="technology"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -149,6 +156,7 @@ const TechnologyUse = () => {
                       src={`/assets/images/react.png`}
                          height={190}
                       width={190}
+                      loading="lazy"
                     />
                   </div>
                 </div>
