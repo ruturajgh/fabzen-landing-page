@@ -1,21 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
+import { BsChevronDown } from "react-icons/bs";
 import { useLocation } from "react-router-dom";
 
 function Header() {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const location = useLocation();
-
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
-
   const isActive = (path) => {
     return location.pathname === path ? "active-link" : "";
   };
 
   return (
     <nav className="">
-      <div className="containe-lgr mx-20 px-6 py-3 mb-3">
+      <div className="containe-lgr max-w-7xl mx-auto px-6 py-3 mb-3">
         <div className="flex justify-between items-center mt-3">
           <a className="text-xl font-bold text-gray-800 lg:text-2xl" href="/">
             <img
@@ -46,64 +41,70 @@ function Header() {
               About
             </a>
             <div className="relative">
-              <a
-                className="hover:text-pink-700 text-white stolzl-300 cursor-pointer"
-                onClick={toggleDropdown}
+              <button
+                popovertarget="mypopover"
+                className="hover:text-pink-700 flex gap-2  text-white stolzl-300 cursor-pointer group items-center"
                 style={{ textDecoration: "none", fontSize: "16px" }}
               >
-                Services <i className=""></i>
-              </a>
-              {isDropdownOpen && (
-                <div
-                  className="absolute bg-white shadow-lg rounded-md ring-1 ring-black ring-opacity-5"
-                  style={{ width: "250px" }}
+                <span>Services</span>
+                <BsChevronDown className="group-hover:text-pink-700" />
+              </button>
+              <div
+                id="mypopover"
+                popover="auto"
+                className="absolute bg-white shadow-lg rounded-md ring-1 ring-black ring-opacity-5"
+                style={{ width: "250px", inset: "unset" }}
+              >
+                <a
+                  href="/AppDevelopment"
+                  className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 rounded-t-md hover:text-white ${isActive(
+                    "/AppDevelopment"
+                  )}`}
                 >
-                  <a
-                    href="/AppDevelopment"
-                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive(
-                      "/AppDevelopment"
+                  Mobile Apps Development
+                </a>
+                <a
+                  href="/GameDevelopment"
+                  className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive(
+                    "/GameDevelopment"
+                  )}`}
+                >
+                  Mobile Games Development
+                </a>
+                <a
+                  href="/CloudServices"
+                  className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive(
+                    "/CloudServices"
+                  )}`}
+                >
+                  Cloud & DevOps Services
+                </a>
+                <a
+                  href="/UxServices"
+                  className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive(
+                    "/UxServices"
+                  )}`}
+                >
+                  UI/UX Design
+                </a>
+                <a
+                  href="/GameBrandingMarket"
+                  className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive(
+                    "/GameBrandingMarket"
+                  )}`}
+                >
+                  Game Branding & Marketing
+                </a>
+                <a
+                  href="/GameDesign"
+                  className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 
+                    rounded-b-md hover:text-gray-700 ${isActive(
+                      "/GameDesign"
                     )}`}
-                  >
-                    Mobile Apps Development
-                  </a>
-                  <a
-                    href="/GameDevelopment"
-                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive(
-                      "/GameDevelopment"
-                    )}`}
-                  >
-                    Mobile Games Development
-                  </a>
-                  <a
-                    href="/CloudServices"
-                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive(
-                      "/CloudServices"
-                    )}`}
-                  >
-                    Cloud & DevOps Services
-                  </a>
-                  <a
-                    href="/UxServices"
-                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive(
-                      "/UxServices"
-                    )}`}
-                  >
-                    UI/UX Design
-                  </a> 
-                  <a
-                    href="/GameBrandingMarket"
-                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-white ${isActive("/GameBrandingMarket")}`}
-                  >
-                    Game Branding & Marketing
-                  </a>
-                  <a
-                    href="/GameDesign"
-                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-pink-700 hover:text-gray-700 ${isActive("/GameDesign")}`}
-                  >
-                    Game 2D/3D Design
-                  </a>
-                </div>
-              )}
+                >
+                  Game 2D/3D Design
+                </a>
+              </div>
             </div>
             <a
               className={`hover:text-pink-700 text-white stolzl-300 ${isActive(
