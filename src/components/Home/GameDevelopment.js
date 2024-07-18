@@ -33,7 +33,7 @@ const GameDevelopmentProcess = () => {
                   <div className="flex flex-col justify-between h-full">
                     <div>
                       <h2
-                        className="text-3xl font-normal text-white stolzl-400 "
+                        className="text-4xl font-normal text-white stolzl-400 "
                         style={{ lineHeight: "1.3" }}
                       >
                         Our Game <br /> Development Process
@@ -113,7 +113,7 @@ const GameDevelopmentProcess = () => {
                   <div className="flex flex-col justify-between h-full">
                     <div>
                       <h2
-                        className="text-3xl font-normal text-white stolzl-400 mb-10"
+                        className="text-4xl font-normal text-white stolzl-400 mb-10"
                         style={{ lineHeight: "1.3" }}
                       >
                         Our Game <br /> Development Process

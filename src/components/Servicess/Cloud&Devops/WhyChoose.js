@@ -20,10 +20,12 @@ function WhyChoose() {
           <div className="grid max-w-screen-xl   py-8 mx-auto lg:gap- xl:gap-0 lg:py-12 lg:grid-cols-12">
             <div className="hidden lg:mt-0 lg:col-span-6 lg:flex  justify-space ">
               <img
-                className=" gameimage "
+                className=" gameimage mt-20 absolute -me-5 "
                 src={`/assets/images/cloud-whychoose.png`}
                 alt="Member of"
                 loading="lazy"
+                height={610}
+                width={610}
               />
             </div>
             <div className="mr-auto place-self-center lg:col-span-6">
@@ -153,31 +155,36 @@ function WhyChoose() {
             </div>
           </div>
         </div>
-        <section className="bg-upfootertest mt-16">
-        <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 m-2">
-            <div className="col-span-1 md:col-span-1"></div>
-            <div className="col-span-1 md:col-span-1">
-              <div className="mt-24">
-                <h2 className="text-3xl text-center text-white font-stolzl-300">
-                  Create a measurable impact on your
-                </h2>
-                <h2 className="text-center text-6xl text-white mt-2">
-                  <strong className="font-stolzl-400">Games.</strong>
-                </h2>
-                <div className="flex justify-center ">
-                  <div className="me-5">
-                    <button className="button-gradient  text-white px-4 py-3 rounded-full mt-8 stolzl-300 text-1xl mb-32">
-                      Request a Quote
-                    </button>
+        <section className="bg-upfootertest mt-16  max-w-[100rem] mx-auto">
+      <div className="flex justify-center mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 m-2">
+          <div className="col-span-1 md:col-span-1"></div>
+          <div className="col-span-1 md:col-span-1">
+            <div className="mt-24">
+              <div className="flex justify-center">
+                <div>
+                  <div>
+                    <h2 className="text-[29px] text-center  w-[90rem] text-white font-stolzl-300">
+                      Create a measurable impact on your
+                    </h2>
+                    <h2 className="text-center text-6xl text-white mt-2">
+                      <strong className="font-stolzl-400">Games.</strong>
+                    </h2>
+                    <div className=" flex justify-center">
+                      <button className="button-gradient text-white px-4 py-3 rounded-full mt-8 stolzl-300 text-1xl mb-32">
+                        Request a Quote
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
+              <div className="flex justify-center"></div>
             </div>
-            <div className="col-span-1 md:col-span-1 ms-32"></div>
           </div>
+          <div className="col-span-1 md:col-span-1 ms-32"></div>
         </div>
-      </section>
+      </div>
+    </section>
       </div>
     </div>
   );

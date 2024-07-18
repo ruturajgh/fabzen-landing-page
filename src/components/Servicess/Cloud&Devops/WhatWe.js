@@ -5,7 +5,7 @@ function WhatWe() {
     <div>
 
 
-<div className="py-32">
+<div className="py-12">
       <div className="container-lg mx-auto ">
         <h1 className="text-center stolzl-400 text-white text-4xl mb-5">
         What we do

@@ -31,7 +31,7 @@ function TwoDesgin() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9 ">
-                Casual <br /> Game Development
+              2D/3D  <br /> Character Designing
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p
@@ -57,7 +57,7 @@ function TwoDesgin() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
-                Casual <br /> Game Development
+              Game <br /> Environment Design
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p
@@ -83,7 +83,7 @@ function TwoDesgin() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
-                Casual <br /> Game Development
+              3D <br /> Modelling
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p
@@ -111,7 +111,7 @@ function TwoDesgin() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
-                Casual <br /> Game Development
+              Art <br /> Illustrations
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p
@@ -137,7 +137,7 @@ function TwoDesgin() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
-                Casual <br /> Game Development
+              Game <br /> Sketches
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p
@@ -163,7 +163,7 @@ function TwoDesgin() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
-                Casual <br /> Game Development
+              PC  <br /> Prop Art
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p

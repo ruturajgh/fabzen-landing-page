@@ -3,7 +3,7 @@ import React from "react";
 
 function DesginServices() {
   return (
-    <div className="py-32">
+    <div className="py-12">
       <div className="container-lg mx-auto ">
         <h1 className="text-center stolzl-400 text-white text-4xl mb-5">
           UI/UX Design Services

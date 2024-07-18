@@ -28,7 +28,8 @@ const Capabilities = () => {
             interfaces that meet business objectives and client needs.
           </p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 ">
+       <div className="flex justify-center mx-auto">
+       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 ">
           {capabilities.map((capability, index) => (
             <div key={index} className="">
               <span
@@ -41,6 +42,7 @@ const Capabilities = () => {
             </div>
           ))}
         </div>
+       </div>
       </div>
     </div>
   );

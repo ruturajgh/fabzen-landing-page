@@ -21,6 +21,7 @@ function About() {
           <WhoWeAre />
           <StoryOf />
           <OurOffices />
+          
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ function BrandingMarket() {
   return (
     <div>
       <div>
-      <div className="py-32">
+      <div className="py-3 mb-24">
       <div className="container-lg mx-auto ">
         <h1 className="text-center stolzl-400 text-white text-4xl mb-5">
           Branding & Marketing Services
@@ -32,7 +32,7 @@ function BrandingMarket() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9 ">
-                Casual <br /> Game Development
+                <br /> Branding
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p
@@ -58,7 +58,7 @@ function BrandingMarket() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
-                Casual <br /> Game Development
+                 <br /> SEO
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p
@@ -84,7 +84,7 @@ function BrandingMarket() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
-                Casual <br /> Game Development
+              Content <br /> Writing and Creation
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p
@@ -112,7 +112,7 @@ function BrandingMarket() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
-                Casual <br /> Game Development
+              Campaign  <br /> Management
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p
@@ -138,7 +138,7 @@ function BrandingMarket() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
-                Casual <br /> Game Development
+                Casual <br /> Collaterals
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p
@@ -164,7 +164,7 @@ function BrandingMarket() {
                 </div>
               </div>
               <h3 className="text-center stolzl-400 text-2xl text-white mb-3 leading-9  ">
-                Casual <br /> Game Development
+                Social <br /> Media Marketing
               </h3>
               <div className="flex flex-col justify-between flex-grow">
                 <p

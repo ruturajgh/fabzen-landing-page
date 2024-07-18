@@ -3,7 +3,7 @@ import React from "react";
 function ApproachApp() {
   return (
     <div>
-      <div className="py-5">
+      <div className="py-16">
         <div className="container-lg mx-auto">
           <h1 className="text-center stolzl-400 text-white text-4xl mb-5">
             Approach to App Development

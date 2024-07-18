@@ -18,10 +18,12 @@ function TwoGame() {
         </p>
       </div>
         <div className="grid max-w-screen-xl   py-8 mx-auto lg:gap- xl:gap-0  lg:grid-cols-12">
-          <div className="hidden lg:mt-0 lg:col-span-6 lg:flex  justify-space ">
+          <div className="hidden lg:mt-0 lg:col-span-6 lg:flex  justify-center ">
             <img
-              className=" gameimage "
+              className="mt-28 md:items-center "
               src={`/assets/images/game-3d-dev-process.png`}
+              style={{height:"750px"}}
+             
               
               alt="Member of"
             />
@@ -33,11 +35,9 @@ function TwoGame() {
                 <img src={`/assets/images/icon-planning.png`} height={190} width={190}/>
               </div>
               <div className="m-5">
-                <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Planning</h2>
+                <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Analysis</h2>
                 <p className="secondary-text ">
-                  At this stage, game developers brainstorm ideas and come up
-                  with a concept for a game. This includes choosing the game’s
-                  target audience, genre, style, and overall theme.
+                At this stage, game developers brainstorm ideas and come up with a concept for a game. This includes choosing the game’s target audience, genre, style, and overall theme.
                 </p>
               </div>
             </div>
@@ -47,11 +47,9 @@ function TwoGame() {
                 <img src={`/assets/images/icon-preproduction.png`} height={190} width={190}/>
               </div>
               <div className="m-5">
-                <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Pre-Production</h2>
+                <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Customisation</h2>
                 <p className="secondary-text ">
-                  At this stage, game developers brainstorm ideas and come up
-                  with a concept for a game. This includes choosing the game’s
-                  target audience, genre, style, and overall theme.
+                The Pre-Production stage entails developing a game prototype and refining the concept. This is where the story, characters, levels, and other game features are created.
                 </p>
               </div>
             </div>
@@ -61,11 +59,9 @@ function TwoGame() {
                 <img src={`/assets/images/icon-production.png`} height={190} width={190}/>
               </div>
               <div className="m-5">
-                <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Production</h2>
+                <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Future & Functionality</h2>
                 <p className="secondary-text ">
-                  At this stage, game developers brainstorm ideas and come up
-                  with a concept for a game. This includes choosing the game’s
-                  target audience, genre, style, and overall theme.
+                It is regarded as an important stage in game development. At this point, the game begins to take shape. The game's code, graphics, audio, and other elements are created during the Production stage.
                 </p>
               </div>
             </div>
@@ -76,11 +72,9 @@ function TwoGame() {
                 <img src={`/assets/images/icon-testing.png`} height={190} width={190}/>
               </div>
               <div className="m-5">
-                <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Testing</h2>
+                <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Beta Testing</h2>
                 <p className="secondary-text ">
-                  At this stage, game developers brainstorm ideas and come up
-                  with a concept for a game. This includes choosing the game’s
-                  target audience, genre, style, and overall theme.
+                The Testing phase is when the game is tested for bugs and other issues. The game's balance and difficulty settings are also modified at this time.
                 </p>
               </div>
             </div>
@@ -92,11 +86,9 @@ function TwoGame() {
                 <img src={`/assets/images/icon-relase.png`} height={190} width={190}/>
               </div>
               <div className="m-5">
-                <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Release</h2>
+                <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Launch</h2>
                 <p className="secondary-text ">
-                  At this stage, game developers brainstorm ideas and come up
-                  with a concept for a game. This includes choosing the game’s
-                  target audience, genre, style, and overall theme.
+                The Testing phase is when the game is tested for bugs and other issues. The game's balance and difficulty settings are also modified at this time.
                 </p>
               </div>
             </div>

@@ -64,6 +64,13 @@ body {
   background-repeat: no-repeat;
   background-color: #05051b;
 }
+/* .overlaym{
+
+
+  background: url("../public/assets/images/overlay.png");
+
+ 
+} */
 .overlay000bg {
   top: 0;
   left: 0;
@@ -165,21 +172,26 @@ body {
 .one-section {
   background: url("../public/assets/images/banner-bg.jpg");
   max-width: 100%;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
+  height: 850px;
 }
 
 .gameimage {
   mix-blend-mode: lighten;
 }
 .imgwe {
-  mix-blend-mode: lighten;
+  mix-blend-mode:lighten;
 }
 
 .bg-upfootertest {
   background-image: url(../public/assets/images/test-appdevllastfooter.png);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
+
 .vertical-timeline-element-content {
   position: relative;
   /* margin-left: 60px; */
@@ -250,23 +262,13 @@ body {
 }
 
 .font-size-main {
-  font-size: 54px;
+  font-size: 60px;
 }
 
 .home-text {
   font-size: 45px;
 }
 
-/* 
-.about-home {
-  background-image: url('../public/assets/images/bg-main00.png');
-  background-size: cover;
-  background-position: center;
-  mix-blend-mode: lighten;
-  height: 100vh;
- position: relative;
- padding-top: ;
-} */
 
 /* backgroud for all banner images */
 
@@ -304,16 +306,17 @@ body {
 }
 
 .bg-mobilegame {
-  background-image: url(../public/assets/images/gamedev-bg.png);
+  /* background-image: url(../public/assets/images/gamedevloepment-bgmain.svg); */
   background-size: cover;
-  height: 57%;
+  height: 69%;
   margin-top: -190px;
   padding-top: 260px;
   margin-bottom: 100px;
-  background-position: top;
+  background-position: center;
   z-index: -100;
   position: relative;
   mix-blend-mode: lighten;
+  background-position-x: 160px;
 }
 
 .bg-mobileuxui {
@@ -324,7 +327,7 @@ body {
   padding-top: 260px;
   margin-bottom: 100px;
   mix-blend-mode: lighten;
-  background-position: top;
+  background-position: center;
   z-index: -100;
   position: relative;
 }
@@ -379,53 +382,155 @@ body {
   background: #e50859;
 }
 
-.appoverlaybg {
+
+
+
+
+
+
+.aboutoverlaybg {
   top: 0;
   left: 0;
   width: 100%;
-
-  background: url("../public/assets/images/appdevelopement-background.svg");
+  background: url("../public/assets/images/about-bgg.png");
   background-size: cover;
   /* background-position:0px 1150px;; Center the image */
-  opacity: 1;
-  height: 850px;
-  padding: 130px;
-  margin-top: -150px;
-
-  background-position-y: 850px;
- 
-}
-
-.cloudoverlaybg {
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: url("../public/assets/images/appdevelopement-background.svg");
-  background-size: cover;
-  /* background-position:0px 1150px;; Center the image */
-  opacity: 1;
-  height: 850px;
-  padding: 130px;
-  margin-top: -150px;
-
-  background-position-y: 850px;
-}
-
-.gameoverlaybg {
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: url("../public/assets/images/game3d-images.png");
-  background-size: cover;
-  /* background-position:0px 1150px;; Center the image */
-  opacity: 0.8;
+  opacity: 1 !important;
   height: 850px;
   padding: 130px;
   margin-top: -155px;
-  margin-bottom: -130px;
-  background-position:bottom;
-  background-position-x: 290px;
+  margin-bottom: -80px;
+  background-position-x: bottom;
+   background-position-x: bottom;
+  z-index: -10;
+  position: relative;
+}
+.carreroverlaybg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url("../public/assets/images/about-bgg.png");
+  background-size: cover;
+  /* background-position:0px 1150px;; Center the image */
+  opacity: 1;
+  height: 850px;
+  padding: 130px;
+  margin-top: -155px;
+  margin-bottom: 30px;
+  background-position: bottom;
+  z-index: -10;
+  position: relative;
+}
 
+
+.bgr{
+background-image: url(/public/assets/images/game-rightside.png);
+background-size:cover;
+background-position-x:300px;
+background-position-y: -50px;
+}
+
+.bg-thirdsection{
+  background-image: url(/public/assets/images/third-bg-main.png);
+  background-size: cover;
+  height: 800px;
+}
+
+.bg-mainsection{
+  background-image: url(/public/assets/images/bgmain.png);
+  background-size: cover;
+  height: 890px;
+  margin-top: -150px;
+  background-position: center;
+  position: relative;
+  z-index: -90;
+
+}
+
+.about-bg{
+  background-image: url(/public/assets/images/about-bgg.png);
+  background-size: cover;
+  padding: 100px;
+  margin-top: -130px;
+  background-position: top;
+  position: relative;
+  z-index: -90;
+
+}
+.app-bg{
+  background-image: url(/public/assets/images/appdeveopement.png);
+  background-size: cover;
+  padding: 100px;
+  margin-top: -130px;
+  background-position: top;
+  position: relative;
+  z-index: -90;
   
-  mix-blend-mode:multiply;
+}
+.game-bg{
+  background-image: url(/public/assets/images/gamedevloepment-bgmain.png);
+  background-size: cover;
+  padding: 100px;
+  margin-top: -130px;
+  background-position: center;
+  position: relative;
+  z-index: -90;
+}
+.cloud-bg{
+  background-image: url(/public/assets/images/appdevelopement-background.svg);
+  background-size: cover;
+  padding: 100px;
+  margin-top: -130px;
+  background-position: bottom;
+  position: relative;
+  z-index: -90;
+}
+.ux-bg{
+  background-image: url(/public/assets/images/uxdesign-bg.png);
+  background-size: cover;
+  padding: 100px;
+  margin-top: -130px;
+  background-position: center;
+  position: relative;
+  z-index: -90;
+}
+.gameing-branding-bg{
+  background-image: url(/public/assets/images/gamebranding-bg.png);
+  background-size: cover;
+  padding: 100px;
+  margin-top: -130px;
+  background-position: top;
+  position: relative;
+  z-index: -90;
+  background-repeat: no-repeat;
+}
+
+.gameing-desgin{
+  background-image: url(/public/assets/images/2d-3d-bg.png);
+  background-size: cover;
+  padding: 100px;
+  margin-top: -130px;
+  background-position: bottom;
+  position: relative;
+  z-index: -90;
+}
+
+.carrer-bg{
+  background-image: url(/public/assets/images/05051B.png);
+  background-size: cover;
+  padding: 100px;
+  margin-top: -130px;
+  background-position: top;
+  position: relative;
+  z-index: -90;
+}
+
+.contact{
+  background-image: url(/public/assets/images/appdeveopement.png);
+  background-size: cover;
+  padding: 100px;
+  margin-top: -130px;
+  background-position: top;
+  position: relative;
+  z-index: -90;
 }

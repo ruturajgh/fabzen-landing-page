@@ -5,13 +5,13 @@ function CloudHome() {
     <div>
       <div>
         <div>
-          <div className="cloudoverlaybg ">
-            <div className="overlay000">
-              <div className="max-w-[75rem] mx-auto px-8 sm:px-6 lg:px-6  ">
+          <div className="cloud-bg max-w-[100rem] mx-auto ">
+            <div className="mx-auto">
+              <div className="max-w-[80rem] mx-auto px-8 sm:px-6 lg:px-6  ">
                 <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center mb-42">
-                  <div className="max-w-full  ">
+                  <div className="max-w-[100rem]  ">
                     <h1
-                      className="font-size-main stolzl-300 text-white"
+                      className="font-size-main  stolzl-300 text-white w-[45rem]"
                       style={{ lineHeight: "1.5" }}
                     >
                      Cloud & <br />
@@ -35,8 +35,8 @@ function CloudHome() {
                           className=" img-home-app rounded-md"
                           src={`/assets/images/Cloud-home.png`}
                           alt="Image Description"
-                          height={390}
-                          width={390}
+                          height={310}
+                          width={310}
                           style={{zIndex:"-0"}}
                           loading="lazy"
                         />

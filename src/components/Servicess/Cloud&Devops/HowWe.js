@@ -6,7 +6,7 @@ function HowWe() {
 
 <div className="py-24">
         <div className="container-lg mx-auto ">
-          <h1 className="text-center stolzl-400 text-white text-5xl mb-5">
+          <h1 className="text-center stolzl-400 text-white text-5xl ">
           How we do it?
           </h1>
           <p className="text-center secondary-text leading-8 stolzl-200 mb-10">
@@ -18,7 +18,7 @@ function HowWe() {
         </div>
         <div className="grid max-w-screen-xl   py-8 mx-auto lg:gap- xl:gap-0 lg:py-12 lg:grid-cols-12">
           <div className="hidden lg:mt-0 lg:col-span-6 lg:flex  justify-space ">
-            <img className=" gameimage " src={`/assets/images/whycooseus.png`}  alt="Member of" loading="lazy" />
+            <img className=" gameimage " src={`/assets/images/cloud-how.png`}  alt="Member of" loading="lazy" />
           </div>
           <div className="mr-auto place-self-center lg:col-span-6">
             {/* card-1 */}

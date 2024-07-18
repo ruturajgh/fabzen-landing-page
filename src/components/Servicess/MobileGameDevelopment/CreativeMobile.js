@@ -3,7 +3,7 @@ import React from "react";
 
 function CreativeMobile() {
   return (
-    <div>
+    <div className="bgr">
       <div className="max-w-[75rem] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-28 md:items-center">
           <div className="">
@@ -42,29 +42,36 @@ function CreativeMobile() {
           </div>
         </div>
       </div>
-      <section className="bg-upfootertest mt-16">
-        <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 m-2">
-            <div className="col-span-1 md:col-span-1"></div>
-            <div className="col-span-1 md:col-span-1">
-              <div className="mt-24">
-                <h2 className="text-3xl text-center text-white font-stolzl-300">
-                  Create a measurable impact on your
-                </h2>
-                <h2 className="text-center text-6xl text-white mt-2">
-                  <strong className="font-stolzl-400">Games.</strong>
-                </h2>
-                <div className="flex justify-center ">
-                  <div className="me-5">
-                  <button className="button-gradient  text-white px-4 py-3 rounded-full mt-8 stolzl-300 text-1xl mb-32">Request a Quote</button>
+      <section className="bg-upfootertest mt-16  max-w-[100rem] mx-auto">
+      <div className="flex justify-center mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 m-2">
+          <div className="col-span-1 md:col-span-1"></div>
+          <div className="col-span-1 md:col-span-1">
+            <div className="mt-24">
+              <div className="flex justify-center">
+                <div>
+                  <div>
+                    <h2 className="text-[29px] text-center  w-[90rem] text-white font-stolzl-300">
+                      Create a measurable impact on your
+                    </h2>
+                    <h2 className="text-center text-6xl text-white mt-2">
+                      <strong className="font-stolzl-400">Games.</strong>
+                    </h2>
+                    <div className=" flex justify-center">
+                      <button className="button-gradient text-white px-4 py-3 rounded-full mt-8 stolzl-300 text-1xl mb-32">
+                        Request a Quote
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
+              <div className="flex justify-center"></div>
             </div>
-            <div className="col-span-1 md:col-span-1 ms-32"></div>
           </div>
+          <div className="col-span-1 md:col-span-1 ms-32"></div>
         </div>
-      </section>
+      </div>
+    </section>
     </div>
   );
 }

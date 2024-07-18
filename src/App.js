@@ -1,4 +1,3 @@
-import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./views/Header";
 import Footer from "./views/Footer";
@@ -11,8 +10,7 @@ import UxServices from "./pages/UxServices";
 import Careers from "./pages/Careers";
 import CloudServices from "./pages/CloudServices";
 import GameBrandingMarket from "./pages/GameBrandingMarket";
-import GameDesgin from "./pages/GameDesgin";
-
+import GameDesign from "./pages/GameDesign";
 
 function App() {
   return (
@@ -27,8 +25,7 @@ function App() {
         <Route path="/UxServices" element={<UxServices />} />
         <Route path="/CloudServices" element={<CloudServices />} />
         <Route path="/GameBrandingMarket" element={<GameBrandingMarket />} />
-      
-         <Route path="/GameDesgin" element={<GameDesgin />} />
+        <Route path="/GameDesign" element={<GameDesign />} />
 
         <Route path="/Careers" element={<Careers />} />
       </Routes>

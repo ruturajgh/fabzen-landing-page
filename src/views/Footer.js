@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer
-      className="footer-bg text-white py-8"
+      className="footer-bg text-white py-8 max-w-[100rem] mx-auto"
       // style={{ backgroundImage: "url('../../src/asstes/images/footer-main.png')", backgroundSize: 'cover' }}
     >
       <div className="container mx-auto px-10">
@@ -30,7 +30,7 @@ function Footer() {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-          <div>
+          <div className="me-8">
             <img
               src={`/assets/images/logo.png`}
               height="240"
@@ -48,10 +48,10 @@ function Footer() {
               maiores.
             </p>
           </div>
-          <div>
+          <div className="items-center">
             <h5 className="font-medium mb-4 m-3 ms-5 stolzl-400">Company</h5>
-            <ul className="ms-4">
-              <li className="mb-2">
+            <ul className="">
+              <li className="mb-2 ms-5">
                 <a
                   href="#"
                   className="secondary-text no-underline"
@@ -60,7 +60,7 @@ function Footer() {
                   Design
                 </a>
               </li>
-              <li className="mb-2">
+              <li className="mb-2 ms-5">
                 <a
                   href="#"
                   className="secondary-text no-underline"
@@ -69,7 +69,7 @@ function Footer() {
                   Development
                 </a>
               </li>
-              <li className="mb-2">
+              <li className="mb-2 ms-5">
                 <a
                   href="#"
                   className="secondary-text no-underline"
@@ -78,7 +78,7 @@ function Footer() {
                   Promotions
                 </a>
               </li>
-              <li>
+              <li className="ms-5">
                 <a
                   href="#"
                   className="secondary-text no-underline"
@@ -92,7 +92,7 @@ function Footer() {
           <div>
             <h5 className="font-medium mb-4 m-3 ms-5 stolzl-400">Company</h5>
             <ul className="ms-4">
-              <li className="mb-2">
+              <li className="mb-2 ms-1">
                 <a
                   href="#"
                   className="secondary-text no-underline"
@@ -101,7 +101,7 @@ function Footer() {
                   About Us
                 </a>
               </li>
-              <li className="mb-2">
+              <li className="mb-2 ms-1">
                 <a
                   href="#"
                   className="secondary-text no-underline"
@@ -110,7 +110,7 @@ function Footer() {
                   Our Team
                 </a>
               </li>
-              <li className="mb-2">
+              <li className="mb-2 ms-1">
                 <a
                   href="#"
                   className="secondary-text no-underline"
@@ -119,7 +119,7 @@ function Footer() {
                   Portfolio
                 </a>
               </li>
-              <li>
+              <li className="ms-1">
                 <a
                   href="#"
                   className="secondary-text no-underline"
