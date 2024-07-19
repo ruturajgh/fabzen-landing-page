@@ -27,7 +27,7 @@ function HowWe() {
                 class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  "
                 style={{ background: "#2F1428" }}
               >
-                <img src={`/assets/images/icon-preproduction.png`}  height={190} width={190} />
+                <img src={`/assets/images/coding.png`}  height={190} width={190} />
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">
@@ -46,7 +46,7 @@ function HowWe() {
                 class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  "
                 style={{ background: "#2F1428" }}
               >
-                <img src={`/assets/images/icon-people.png`}  height={190} width={190} />
+                <img src={`/assets/images/deploy.png`}  height={190} width={190} />
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">
@@ -65,7 +65,7 @@ function HowWe() {
                 class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  "
                 style={{ background: "#2F1428" }}
               >
-                <img src={`/assets/images/icon-production.png`}  height={190} width={190} />
+                <img src={`/assets/images/operating.png`}  height={190} width={190} />
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">
@@ -85,7 +85,7 @@ function HowWe() {
                 class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  "
                 style={{ background: "#2F1428" }}
               >
-                <img src={`/assets/images/icon-tool.png`} height={190} width={190} />
+                <img src={`/assets/images/monitoring.png`} height={190} width={190} />
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">

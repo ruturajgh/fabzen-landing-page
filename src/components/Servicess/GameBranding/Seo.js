@@ -31,7 +31,7 @@ function Seo() {
             {/* card-1 */}
             <div className="flex justify-between  mx-auto">
               <div class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  " style={{background:"#2F1428"}}>
-                <img src={`/assets/images/icon-planning.png`} height={190} width={190} loading="lazy"/>
+                <img src={`/assets/images/icon-analyisis.png`} height={190} width={190} loading="lazy"/>
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Planning</h2>
@@ -45,7 +45,7 @@ function Seo() {
             {/* card-2 */}
             <div className="flex justify-between  mx-auto">
               <div class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  " style={{background:"#2F1428"}}>
-                <img src={`/assets/images/icon-preproduction.png`} height={190} width={190} loading="lazy"/>
+                <img src={`/assets/images/icon-draft.png`} height={190} width={190} loading="lazy"/>
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Draft Original Content</h2>
@@ -59,7 +59,7 @@ function Seo() {
             {/* card-3 */}
             <div className="flex justify-between  mx-auto">
               <div class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  " style={{background:"#2F1428"}}>
-                <img src={`/assets/images/icon-production.png`} height={190} width={190} loading="lazy"/>
+                <img src={`/assets/images/buildlink-png.png`} height={190} width={190} loading="lazy"/>
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Build Links</h2>
@@ -74,7 +74,7 @@ function Seo() {
             {/* card-4 */}
             <div className="flex justify-between  mx-auto">
               <div class="rounded-md    h-42 p-6 w-42 item-center justify-center m-8  " style={{background:"#2F1428"}}>
-                <img src={`/assets/images/icon-testing.png`} height={190} width={190} loading="lazy"/>
+                <img src={`/assets/images/authority-icon.png`} height={190} width={190} loading="lazy"/>
               </div>
               <div className="m-5">
                 <h2 className="text-white stolzl-400 text-3xl mb-5 mt-3">Create Authority Sites</h2>

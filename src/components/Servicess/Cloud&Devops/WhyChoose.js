@@ -36,7 +36,7 @@ function WhyChoose() {
                   style={{ background: "#2F1428" }}
                 >
                   <img
-                    src={`/assets/images/icon-planning.png`}
+                    src={`/assets/images/swiftino.png`}
                     height={190}
                     width={190}
                     loading="lazy"
@@ -60,7 +60,7 @@ function WhyChoose() {
                   style={{ background: "#2F1428" }}
                 >
                   <img
-                    src={`/assets/images/icon-preproduction.png`}
+                    src={`/assets/images/operations.png`}
                     height={190}
                     width={190}
                     loading="lazy"
@@ -84,7 +84,7 @@ function WhyChoose() {
                   style={{ background: "#2F1428" }}
                 >
                   <img
-                    src={`/assets/images/icon-production.png`}
+                    src={`/assets/images/global.png`}
                     height={190}
                     width={190}
                     loading="lazy"
@@ -109,7 +109,7 @@ function WhyChoose() {
                   style={{ background: "#2F1428" }}
                 >
                   <img
-                    src={`/assets/images/icon-testing.png`}
+                    src={`/assets/images/security.png`}
                     height={190}
                     width={190}
                     loading="lazy"
@@ -135,7 +135,7 @@ function WhyChoose() {
                   style={{ background: "#2F1428" }}
                 >
                   <img
-                    src={`/assets/images/icon-relase.png`}
+                    src={`/assets/images/costoptimation.png`}
                     height={190}
                     width={190}
                     loading="lazy"

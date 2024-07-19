@@ -6,7 +6,7 @@ function Footer() {
       className="footer-bg text-white py-8 max-w-[100rem] mx-auto"
       // style={{ backgroundImage: "url('../../src/asstes/images/footer-main.png')", backgroundSize: 'cover' }}
     >
-      <div className="container mx-auto px-10">
+      <div className=" mx-auto px-10">
         <div>
           <h2 className="mt-4 text-center font-extralight text-2xl mb-12 stolzl-300 ">
             Follow Our Work
@@ -29,7 +29,7 @@ function Footer() {
             <h4 className="font-light text-4xl stolzl-400">YouTube</h4>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-24">
           <div className="me-8">
             <img
               src={`/assets/images/logo.png`}
