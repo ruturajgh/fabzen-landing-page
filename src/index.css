@@ -437,7 +437,7 @@ background-position-y: -50px;
 }
 
 .bg-mainsection{
-  background-image: url(/public/assets/images/bgmain.png);
+  background-image: url(/public/assets/images/bg-main-0001.png);
   background-size: cover;
   height: 890px;
   margin-top: -150px;
@@ -448,36 +448,38 @@ background-position-y: -50px;
 }
 
 .about-bg{
-  background-image: url(/public/assets/images/about-bgg.png);
+  background-image: url(/public/assets/images/about-bg-photoshop.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;
-  background-position: top;
+  background-position: bottom;
   position: relative;
   z-index: -90;
+  opacity: 1;
 
 }
 .app-bg{
-  background-image: url(/public/assets/images/appdeveopement.png);
+  background-image: url(/public/assets/images/app-deve-photo.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;
-  background-position: top;
+  background-position: bottom;
+  background-position-x: 290px;
   position: relative;
   z-index: -90;
   
 }
 .game-bg{
-  background-image: url(/public/assets/images/gamedevloepment-bgmain.png);
+  background-image: url(/public/assets/images/game-bg-photoshop.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;
-  background-position: center;
+  background-position: bottom;
   position: relative;
   z-index: -90;
 }
 .cloud-bg{
-  background-image: url(/public/assets/images/appdevelopement-background.svg);
+  background-image: url(/public/assets/images/cloudbgbackground-001.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;
@@ -486,7 +488,7 @@ background-position-y: -50px;
   z-index: -90;
 }
 .ux-bg{
-  background-image: url(/public/assets/images/uxdesign-bg.png);
+  background-image: url(/public/assets/images/uiuxbg-photoshop.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;
@@ -495,7 +497,7 @@ background-position-y: -50px;
   z-index: -90;
 }
 .gameing-branding-bg{
-  background-image: url(/public/assets/images/gamebranding-bg.png);
+  background-image: url(/public/assets/images/gamebranding-photoshop.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;
@@ -506,7 +508,7 @@ background-position-y: -50px;
 }
 
 .gameing-desgin{
-  background-image: url(/public/assets/images/2d-3d-bg.png);
+  background-image: url(/public/assets/images/2d3dgame-photoshop.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;
@@ -516,7 +518,7 @@ background-position-y: -50px;
 }
 
 .carrer-bg{
-  background-image: url(/public/assets/images/05051B.png);
+  background-image: url(/public/assets/images/carrer-bg-photoshop.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;

@@ -4,7 +4,7 @@ import { FaCircle } from "react-icons/fa6";
 function HeroSection() {
   return (
     <div>
-      <div className="bg-mainsection max-w-[100rem] mx-auto px-10 sm:px-6 p-8 lg:px-6   bg-[#2F1428]  bg-second  ">
+      <div className="bg-mainsection max-w-[100rem] mx-auto px-10 sm:px-6 p-8 lg:px-6     bg-second  ">
         <div className=" mx-auto justify-center flex px-4 sm:px-6 lg:px-8 py-16">
           <div className="  grid md:grid-cols-2   md:items-center py-16 w-[75rem]">
             <div className="py-1 max-w-[75rem] ">
