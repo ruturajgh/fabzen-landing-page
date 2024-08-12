@@ -34,8 +34,8 @@ function WhatDevops() {
                       className=" img-home-app rounded-md"
                       src={`/assets/images/cloud-devops.png`}
                       alt="Image Description"
-                      height={590}
-                      width={590}
+                      height={480}
+                      width={480}
                       loading="lazy"
                     />
                   </div>

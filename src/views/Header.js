@@ -14,8 +14,8 @@ const Navbar = () => {
 
   return (
     <nav className="">
-      <div className="containe-lgr max-w-7xl mx-auto px-6 py-3 mb-3">
-        <div className="flex justify-between items-center mt-3">
+      <div className="containe-lg  mx-auto px-6 py-3 mb-3">
+        <div className="flex justify-between items-center mt-3 p-6">
           <a className="text-xl font-bold text-gray-800 lg:text-2xl" href="/">
             <img
               src={`/assets/images/logo.png`}

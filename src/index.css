@@ -64,19 +64,13 @@ body {
   background-repeat: no-repeat;
   background-color: #05051b;
 }
-/* .overlaym{
 
-
-  background: url("../public/assets/images/overlay.png");
-
- 
-} */
 .overlay000bg {
   top: 0;
   left: 0;
   width: 100%;
 
-  background: url("../public/assets/images/bg-branding.png");
+  background: url("../public/assets/images/homebanner/bg-branding.png");
   background-size: cover;
   /* background-position:0px 1150px;; Center the image */
   opacity: 0.9;
@@ -103,38 +97,16 @@ body {
   );
 }
 
-/* body {
-  background-image: url(../public/assets/images/complete-bg.png);
-
-  height: "680px";
-  background-position: center;
-  padding-top: "10px";
-  background-repeat: no-repeat;
-  border-radius: " 30px";
-} */
-
 .text-color {
   color: #ce1057;
 }
 .bg-img {
-  background-image: url("../public/assets/images/our-game.png");
+  background-image: url("../public/assets/images/homebanner/our-game.png");
   background-size: cover;
 }
 
-/* .bg-creative{
-
-  background-image: url('../src/asstes/images/bg-color.png');
-  background-size: cover;
-} */
-
-/* .bg-second{
-  background-image: url(./asstes/images/main-bg-banner.png);
-  background-size: cover;
-  background-position: center;background-repeat: no-repeat; border-radius: 30px; 
- 
-} */
 .bg-third {
-  background-image: url("../public/assets/images/third-bg-main.png");
+  background-image: url("../public/assets/images/homebanner/third-bg-main.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -143,53 +115,28 @@ body {
 }
 
 .footer-bg {
-  background-image: url(../public/assets/images/footer-main.png);
+  background-image: url(../public/assets/images/homebanner/footer-main.png);
   background-size: cover;
 }
 
 .bg-upfooter {
-  background-image: url(../public/assets/images/fotter-up1.png);
+  background-image: url(../public/assets/images/homebanner/fotter-up1.png);
   background-size: cover;
-}
-
-.bg-main0 {
-  background-image: url(../public/assets/images/banner-bg.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.second-section {
-  background-image: url(../public/assets/images/main-bg-banner.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 30px;
-  height: 100%;
-
-  margin: 0;
-}
-
-.one-section {
-  background: url("../public/assets/images/banner-bg.jpg");
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 850px;
 }
 
 .gameimage {
   mix-blend-mode: lighten;
 }
 .imgwe {
-  mix-blend-mode:lighten;
+  mix-blend-mode: lighten;
 }
 
 .bg-upfootertest {
-  background-image: url(../public/assets/images/test-appdevllastfooter.png);
+  background-image: url(../public/assets/images/homebanner/test-appdevllastfooter.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+ 
 }
 
 .vertical-timeline-element-content {
@@ -200,15 +147,6 @@ body {
   padding: 10em;
   /* -webkit-box-shadow: 0 3px 0 #ddd; */
   /* box-shadow: 0 3px 0 #ddd; */
-}
-
-/* app-developement- CSS */
-
-.bg-home-app {
-  background-image: url("../public/assets/images/appdevelopment-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  mix-blend-mode: lighten;
 }
 
 .vertical-timeline-element-content {
@@ -222,7 +160,7 @@ body {
 }
 
 .bgabout {
-  background-image: url(../public/assets/images/about.png.png);
+  background-image: url(../public/assets/images/homebanner/about.png.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -269,7 +207,6 @@ body {
   font-size: 45px;
 }
 
-
 /* backgroud for all banner images */
 
 .bg-about {
@@ -290,46 +227,6 @@ body {
   left: 50% !important;
   margin-left: -1px !important;
   height: 81% !important;
-}
-
-.bg-mobileApps {
-  background-image: url(../public/assets/images/ui-ux-bg-light.png);
-  background-size: cover;
-  height: 57%;
-  margin-top: -190px;
-  padding-top: 260px;
-  margin-bottom: 100px;
-  mix-blend-mode: lighten;
-  background-position: top;
-  z-index: -100;
-  position: relative;
-}
-
-.bg-mobilegame {
-  /* background-image: url(../public/assets/images/gamedevloepment-bgmain.svg); */
-  background-size: cover;
-  height: 69%;
-  margin-top: -190px;
-  padding-top: 260px;
-  margin-bottom: 100px;
-  background-position: center;
-  z-index: -100;
-  position: relative;
-  mix-blend-mode: lighten;
-  background-position-x: 160px;
-}
-
-.bg-mobileuxui {
-  background-image: url(../public/assets/images/ui-ux-bg-light.png);
-  background-size: cover;
-  height: 57%;
-  margin-top: -190px;
-  padding-top: 260px;
-  margin-bottom: 100px;
-  mix-blend-mode: lighten;
-  background-position: center;
-  z-index: -100;
-  position: relative;
 }
 
 .vertical-timeline-element-content {
@@ -357,7 +254,7 @@ body {
 }
 
 .bg-secondsection {
-  background-image: url(/public/assets/images/main-bg-banner.png);
+  background-image: url(/public/assets/images/homebanner/main-bg-banner.png);
   background-size: cover;
   height: 800px;
 }
@@ -382,113 +279,71 @@ body {
   background: #e50859;
 }
 
-
-
-
-
-
-
-.aboutoverlaybg {
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: url("../public/assets/images/about-bgg.png");
+.bgr {
+  background-image: url(/public/assets/images/homebanner/game-rightside.png);
   background-size: cover;
-  /* background-position:0px 1150px;; Center the image */
-  opacity: 1 !important;
-  height: 850px;
-  padding: 130px;
-  margin-top: -155px;
-  margin-bottom: -80px;
-  background-position-x: bottom;
-   background-position-x: bottom;
-  z-index: -10;
-  position: relative;
-}
-.carreroverlaybg {
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: url("../public/assets/images/about-bgg.png");
-  background-size: cover;
-  /* background-position:0px 1150px;; Center the image */
-  opacity: 1;
-  height: 850px;
-  padding: 130px;
-  margin-top: -155px;
-  margin-bottom: 30px;
-  background-position: bottom;
-  z-index: -10;
-  position: relative;
+  background-position-x: 300px;
+  background-position-y: -50px;
 }
 
-
-.bgr{
-background-image: url(/public/assets/images/game-rightside.png);
-background-size:cover;
-background-position-x:300px;
-background-position-y: -50px;
+.bg-thirdsection {
+  background-image: url(/public/assets/images/homebanner/third-bg-main.png);
+  background-size: cover;
+  height: 100vh;
 }
 
-.bg-thirdsection{
-  background-image: url(/public/assets/images/third-bg-main.png);
+.bg-mainsection {
+  background-image: url(/public/assets/images/homebanner/main-page-banner-home.png);
   background-size: cover;
-  height: 800px;
-}
-
-.bg-mainsection{
-  background-image: url(/public/assets/images/bg-main-0001.png);
-  background-size: cover;
-  height: 890px;
+  height: 89%;
   margin-top: -150px;
   background-position: center;
-  position: relative;
+  
   z-index: -90;
-
 }
 
-.about-bg{
-  background-image: url(/public/assets/images/about-bg-photoshop.png);
+.about-bg {
+  background-image: url(/public/assets/images/homebanner/about-bg-photoshop.png);
   background-size: cover;
   padding: 100px;
-  margin-top: -130px;
+  margin-top: -190px;
   background-position: bottom;
   position: relative;
   z-index: -90;
   opacity: 1;
+}
+.app-bg {
+  background-image: url(/public/assets/images/homebanner/app-deve-photo.png);
+  background-size: cover;
+  padding: 100px;
+  margin-top: -100px;
+  background-position: bottom;
+  background-position-x: 400px;
+  position: relative;
+  z-index: -90;
+}
+.game-bg {
+  background-image: url(/public/assets/images/homebanner/game-bg-photoshop.png);
+  background-size: cover;
+  padding: 100px;
+  margin-top: -120px;
+  background-position: center;
 
-}
-.app-bg{
-  background-image: url(/public/assets/images/app-deve-photo.png);
-  background-size: cover;
-  padding: 100px;
-  margin-top: -130px;
-  background-position: bottom;
-  background-position-x: 290px;
-  position: relative;
-  z-index: -90;
-  
-}
-.game-bg{
-  background-image: url(/public/assets/images/game-bg-photoshop.png);
-  background-size: cover;
-  padding: 100px;
-  margin-top: -130px;
-  background-position: bottom;
   position: relative;
   z-index: -90;
 }
-.cloud-bg{
-  background-image: url(/public/assets/images/cloudbgbackground-001.png);
+.cloud-bg {
+  background-image: url(/public/assets/images/homebanner/cloudbgbackground-001.png);
   background-size: cover;
   padding: 100px;
-  margin-top: -130px;
+  margin-top: -120px;
   background-position: bottom;
+  background-position-x: 80px;
   position: relative;
   z-index: -90;
 }
-.ux-bg{
-  background-image: url(/public/assets/images/uiuxbg-photoshop.png);
+.ux-bg {
+  background-image: url(/public/assets/images/homebanner/uiuxbg-photoshop.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;
@@ -496,8 +351,8 @@ background-position-y: -50px;
   position: relative;
   z-index: -90;
 }
-.gameing-branding-bg{
-  background-image: url(/public/assets/images/gamebranding-photoshop.png);
+.gameing-branding-bg {
+  background-image: url(/public/assets/images/homebanner/gamebranding-photoshop.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;
@@ -507,8 +362,8 @@ background-position-y: -50px;
   background-repeat: no-repeat;
 }
 
-.gameing-desgin{
-  background-image: url(/public/assets/images/2d3dgame-photoshop.png);
+.gameing-desgin {
+  background-image: url(/public/assets/images/homebanner/2d3dgame-photoshop.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;
@@ -517,8 +372,8 @@ background-position-y: -50px;
   z-index: -90;
 }
 
-.carrer-bg{
-  background-image: url(/public/assets/images/carrer-bg-photoshop.png);
+.carrer-bg {
+  background-image: url(/public/assets/images/homebanner/carrer-bg-photoshop.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;
@@ -527,8 +382,8 @@ background-position-y: -50px;
   z-index: -90;
 }
 
-.contact{
-  background-image: url(/public/assets/images/appdeveopement.png);
+.contact {
+  background-image: url(/public/assets/images/homebanner/appdeveopement.png);
   background-size: cover;
   padding: 100px;
   margin-top: -130px;

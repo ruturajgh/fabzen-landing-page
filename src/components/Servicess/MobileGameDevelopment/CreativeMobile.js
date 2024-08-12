@@ -42,7 +42,7 @@ function CreativeMobile() {
           </div>
         </div>
       </div>
-      <section className="bg-upfootertest mt-16  max-w-[100rem] mx-auto">
+      <section className="bg-upfootertest mt-16   mx-auto">
       <div className="flex justify-center mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 m-2">
           <div className="col-span-1 md:col-span-1"></div>

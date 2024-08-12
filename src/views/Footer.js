@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer
-      className="footer-bg text-white py-8 max-w-[100rem] mx-auto"
+      className="footer-bg text-white py-8  mx-auto"
       // style={{ backgroundImage: "url('../../src/asstes/images/footer-main.png')", backgroundSize: 'cover' }}
     >
       <div className=" mx-auto px-10">
@@ -41,50 +41,66 @@ function Footer() {
 
             <p
               className="secondary-text w-60 mt-3"
-              style={{ fontSize: "13px" }}
+              style={{ fontSize: "14px" }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              eligendi iure natus perspiciatis sed, enim officiis minus eaque
-              maiores.
+             A Terralogic company crafting meaningful experiences through Research, Design and Development.
             </p>
           </div>
           <div className="items-center">
-            <h5 className="font-medium mb-4 m-3 ms-5 stolzl-400">Company</h5>
+            <h5 className="font-medium mb-4 m-3 ms-5 stolzl-400">Services</h5>
             <ul className="">
               <li className="mb-2 ms-5">
                 <a
-                  href="#"
-                  className="secondary-text no-underline"
+                  href="/GameDevelopment"
+                  className="secondary-text no-underline stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
-                  Design
+                 Mobile Game Development
                 </a>
               </li>
               <li className="mb-2 ms-5">
                 <a
-                  href="#"
-                  className="secondary-text no-underline"
+                  href="/AppDevelopment"
+                  className="secondary-text no-underline stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
-                  Development
+                 Mobile App Development
                 </a>
               </li>
               <li className="mb-2 ms-5">
                 <a
-                  href="#"
-                  className="secondary-text no-underline"
+                  href="/CloudServices"
+                  className="secondary-text no-underline stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
-                  Promotions
+                 Cloud & Devops Services
+                </a>
+              </li>
+              <li className="ms-5 mb-2">
+                <a
+                  href="/UxServices"
+                  className="secondary-text no-underline stolzl-300"
+                  style={{ fontSize: "13px" }}
+                >
+                  UI/UX Design
+                </a>
+              </li>
+              <li className="ms-5 mb-2">
+                <a
+                  href="GameBrandingMarket"
+                  className="secondary-text no-underline stolzl-300"
+                  style={{ fontSize: "13px" }}
+                >
+                Branding/Marketing
                 </a>
               </li>
               <li className="ms-5">
                 <a
-                  href="#"
-                  className="secondary-text no-underline"
+                  href="/GameDesign"
+                  className="secondary-text no-underline stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
-                  Digital Marketing
+                2D/3D Design
                 </a>
               </li>
             </ul>
@@ -94,8 +110,8 @@ function Footer() {
             <ul className="ms-4">
               <li className="mb-2 ms-1">
                 <a
-                  href="#"
-                  className="secondary-text no-underline"
+                  href="/about"
+                  className="secondary-text no-underline stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
                   About Us
@@ -104,7 +120,7 @@ function Footer() {
               <li className="mb-2 ms-1">
                 <a
                   href="#"
-                  className="secondary-text no-underline"
+                  className="secondary-text no-underline stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
                   Our Team
@@ -113,7 +129,7 @@ function Footer() {
               <li className="mb-2 ms-1">
                 <a
                   href="#"
-                  className="secondary-text no-underline"
+                  className="secondary-text no-underline stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
                   Portfolio
@@ -121,11 +137,20 @@ function Footer() {
               </li>
               <li className="ms-1">
                 <a
-                  href="#"
-                  className="secondary-text no-underline"
+                  href="/Careers"
+                  className="secondary-text no-underline stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
                   Careers
+                </a>
+              </li>
+              <li className="ms-1 mt-2">
+                <a
+                  href="/contact-us"
+                  className="secondary-text no-underline stolzl-300"
+                  style={{ fontSize: "13px" }}
+                >
+                 Contact Us
                 </a>
               </li>
             </ul>
@@ -138,7 +163,7 @@ function Footer() {
               <li className="mb-2">
                 <a
                   href="#"
-                  className="secondary-text no-underline"
+                  className="secondary-text no-underline  stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
                   ISO Certified
@@ -147,7 +172,7 @@ function Footer() {
               <li className="mb-2">
                 <a
                   href="#"
-                  className="secondary-text no-underline"
+                  className="secondary-text no-underline  stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
                   Privacy Policy
@@ -156,7 +181,7 @@ function Footer() {
               <li className="mb-2">
                 <a
                   href="#"
-                  className="secondary-text no-underline"
+                  className="secondary-text no-underline  stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
                   Terms and Conditions
@@ -165,7 +190,7 @@ function Footer() {
               <li>
                 <a
                   href="#"
-                  className="secondary-text no-underline"
+                  className="secondary-text no-underline  stolzl-300"
                   style={{ fontSize: "13px" }}
                 >
                   Refund Policy
@@ -186,8 +211,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <hr className="mt-6" style={{ color: "aliceblue" }} />
-      <h5 className="secondary-text text-center mt-3 mb-4 font-light">
+      <hr className="mt-16" style={{ color: "aliceblue" }} />
+      <h5 className="secondary-text text-center mt-6 mb-4 font-light stolzl-300 ">
         ©2023 All Rights Reserved.
       </h5>
     </footer>
