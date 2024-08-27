@@ -8,7 +8,7 @@ import SecondBanner from '../components/Home/SecondBanner'
 
 function Home() {
   return (
-    <div>
+    <div >
       <HeroSection/>
       <ServicesSection/>
       <SecondBanner/>

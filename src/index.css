@@ -136,7 +136,6 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
- 
 }
 
 .vertical-timeline-element-content {
@@ -289,24 +288,24 @@ body {
 .bg-thirdsection {
   background-image: url(/public/assets/images/homebanner/third-bg-main.png);
   background-size: cover;
-  height: 100vh;
+  height: 800px;
 }
 
 .bg-mainsection {
-  background-image: url(/public/assets/images/homebanner/main-page-banner-home.png);
+  background-image: url(/public/assets/images/homebanner/final_home_page.jpg);
   background-size: cover;
-  height: 89%;
-  margin-top: -150px;
-  background-position: center;
-  
-  z-index: -90;
+  height: 800px;
+  margin-top: -100px;
+  /* background-size: cover;
+  background-size: ; */
 }
+
 
 .about-bg {
   background-image: url(/public/assets/images/homebanner/about-bg-photoshop.png);
   background-size: cover;
   padding: 100px;
-  margin-top: -190px;
+  margin-top: -230px;
   background-position: bottom;
   position: relative;
   z-index: -90;
@@ -315,10 +314,11 @@ body {
 .app-bg {
   background-image: url(/public/assets/images/homebanner/app-deve-photo.png);
   background-size: cover;
+
   padding: 100px;
   margin-top: -100px;
   background-position: bottom;
-  background-position-x: 400px;
+  background-position-y: -600px;
   position: relative;
   z-index: -90;
 }
@@ -391,3 +391,11 @@ body {
   position: relative;
   z-index: -90;
 }
+
+/* .grad00 {
+
+  background-image: radial-gradient(#efa82e08, #76244930);
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+} */

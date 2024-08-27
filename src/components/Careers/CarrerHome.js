@@ -3,10 +3,10 @@ import React from "react";
 function CarrerHome() {
   return (
     <div>
-      <div className="carrer-bg   mx-auto ">
+      <div className="carrer-bg  max-w-7xl mx-auto ">
         <div className="mx-auto">
           <div className=" mx-auto px-8 sm:px-6 lg:px-6  ">
-            <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center mb-42">
+            <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center mb-42 py-16">
               <div className="max-w-full ">
                 <h1
                   className="font-size-main stolzl-300 text-white w-[45rem]"

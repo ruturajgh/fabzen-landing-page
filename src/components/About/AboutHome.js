@@ -45,11 +45,11 @@ function AboutHome() {
       </div> */}
 
       <div className="about-bg  mx-auto px-10 sm:px-6 p-8 lg:px-6     ">
-        <div className=" mx-auto justify-center flex px-4 sm:px-6 lg:px-8 py-16">
+        <div className=" mx-auto justify-center flex px-4 sm:px-6 lg:px-8 py-36 -mb-20">
           <div className="  grid md:grid-cols-2   md:items-center py-16 w-[75rem]">
             <div className="py-1 max-w-[75rem] ">
               <h1
-                className="font-size-main stolzl-300 text-white w-[45rem]  "
+                className="font-size-main stolzl-300 text-white w-[45rem]   "
                 style={{ lineHeight: "1.5" }}
               >
                 Making change, <br />

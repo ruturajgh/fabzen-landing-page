@@ -23,7 +23,7 @@ const ServicesSection = () => {
   }, []);
 
   return (
-    <section className="container-lg max-w-7xl mx-auto mt-20">
+    <section className="container-lg max-w-7xl mx-auto mt-20 grad00">
       <div className="container-lg mx-auto">
         <h1 className="text-center stolzl-400 text-white text-6xl mb-5">
           Services
@@ -182,6 +182,7 @@ const ServicesSection = () => {
                             width="320"
                             alt=""
                             className="-mt-32"
+                            loading="lazy"
                           />
                         </div>
                       </div>
@@ -231,6 +232,7 @@ const ServicesSection = () => {
                 </div>
               </div>
             </li>
+            {/* More slides */}
           </ul>
         </div>
         {/* Controls */}
@@ -239,6 +241,7 @@ const ServicesSection = () => {
             className="inline-flex items-center justify-center w-8 h-8 transition duration-300 rounded-full lg:w-12 lg:h-12 text-slate-700"
             data-glide-dir="<"
             aria-label="prev slide"
+            onClick={() => console.log("Prev clicked")}
             style={{ backgroundColor: "#420E3A", border: "2px solid #884C69" }}
           >
             <span
@@ -254,6 +257,7 @@ const ServicesSection = () => {
             className="inline-flex items-center justify-center w-8 h-8 transition duration-300 rounded-full lg:w-12 lg:h-12 text-slate-700 border-slate-700 hover:text-slate-900 hover:border-slate-900 focus-visible:outline-none bg-white/20"
             data-glide-dir=">"
             aria-label="next slide"
+            onClick={() => console.log("Next clicked")}
             style={{ backgroundColor: "#420E3A", border: "2px solid #884C69" }}
           >
             <span

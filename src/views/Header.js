@@ -14,8 +14,8 @@ const Navbar = () => {
 
   return (
     <nav className="">
-      <div className="containe-lg  mx-auto px-6 py-3 mb-3">
-        <div className="flex justify-between items-center mt-3 p-6">
+      <div className="containe-lg  mx-auto px-4 py-1  mt-6 max-w-[1200px]">
+        <div className="flex justify-between items-center  ">
           <a className="text-xl font-bold text-gray-800 lg:text-2xl" href="/">
             <img
               src={`/assets/images/logo.png`}
@@ -118,7 +118,7 @@ const Navbar = () => {
               href="/uxservice"
               style={{ textDecoration: "none", fontSize: "16px" }}
             >
-              Our Product
+              Our Products
             </a>
             <a
               className={`hover:text-pink-700 text-white stolzl-300 ${isActive(
@@ -136,7 +136,7 @@ const Navbar = () => {
               href="/contact"
               style={{ textDecoration: "none", fontSize: "16px" }}
             >
-              Contact
+              Contact Us
             </a>
           </div>
         </div>
